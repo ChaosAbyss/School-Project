@@ -8,9 +8,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
+  <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+  <script defer src="./js/transition.js"></script>
+
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="./img/blackboard.svg">
+  <link rel="icon" href="./img/tutor.svg">
 
   <title>Tutor</title>
 </head>
@@ -26,7 +29,7 @@
       <path fill="#0084a8" d="M44.7,-53.1C58,-42.1,68.8,-28.1,68.9,-14.1C69,-0.2,58.3,13.7,45.1,16.2C31.9,18.7,16.2,9.9,4.8,14.7C-6.5,19.4,-13.5,37.7,-23.6,43.3C-33.7,49,-47,41.9,-51.3,31.2C-55.6,20.5,-50.9,6.2,-47.3,-7.3C-43.6,-20.7,-41.1,-33.3,-33.4,-45.3C-25.6,-57.3,-12.8,-68.7,1.4,-70.4C15.7,-72.1,31.4,-64.1,44.7,-53.1Z" transform="translate(100 100)" />
     </svg>
 
-    <div class="vertical">
+    <div id="swup" class="transition-fade vertical">
       <div class="container">
         <div class="vertical__body">
           <div class="vertical__row">
@@ -42,7 +45,7 @@
               </a>
             </div>
             <div class="vertical__column">
-              <a href="#" class="vertical__subject glass">
+              <a href="./html/russian/rus.html" class="vertical__subject glass">
                 <div class="subject__title">Russian</div>
                 <div class="subject__preview">
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias in odit dolorum dolor nobis aspernatur?</p>
@@ -56,7 +59,7 @@
             </div>
             <div class="vertical__column">
               <a href="#" class="vertical__subject glass">
-                <div class="subject__title">English</div>
+                <div class="subject__title">Informatics</div>
                 <div class="subject__preview">
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias in odit dolorum dolor nobis aspernatur?</p>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias in odit dolorum dolor nobis aspernatur?</p>
