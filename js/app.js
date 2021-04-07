@@ -27,3 +27,9 @@ function closePopup(popup) {
   popup.classList.remove('active')
   overlay.classList.remove('active')
 }
+
+// const buttons = document.getElementsByClassName("open-button")
+// for (i = 0; i < buttons.length; i++) {
+//   const number = buttons[i].classList.item(0)
+//   console.log(number)
+// }
