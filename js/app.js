@@ -32,8 +32,3 @@ function reply_click(clicked_id) {
   title = document.getElementById("popup__title")
   title.innerHTML = clicked_id + " задание"
 }
-
-const buttons = document.getElementsByClassName("open-button")
-for (i = 0; i < buttons.length; i++) {
-  const number = buttons[i].classList.item(0)
-}
