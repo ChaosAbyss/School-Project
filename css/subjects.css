@@ -14,6 +14,10 @@
   grid-template-columns: repeat(auto-fit, 30px);
   justify-content: space-around;
   z-index: 3;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .grid__title {
@@ -21,6 +25,10 @@
   font-size: 30px;
   line-height: 50px;
   margin: 5% auto 2% auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .open-button {
@@ -52,7 +60,7 @@
   top: 3.5rem;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
-  transition: 0.15s transform;
+  transition: 0.2s transform;
   transform-origin: top center;
 }
 
