@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/rus.css">
+  <link rel="stylesheet" href="../css/subjects.css">
   <link rel="icon" href="../img/rus.svg">
 
   <title>Russian</title>
@@ -21,7 +21,9 @@
     <h1 class="header"><a href="#">Русский язык</a></h1>
   </div>
   <div class="grid__container">
-    <div class="grid__title">Тестовая часть</div>
+    <div class="grid__title">
+      <a href="#">Тестовая часть</a>
+    </div>
     <div class="grid">
       <div class="noTooltip" data-tooltip="Простейшие текстовые задачи">
         <button class="link1 open-button" data-popup-target="#popup">1</button>
@@ -102,7 +104,7 @@
         <button class="link26 open-button" data-popup-target="#popup">26</button>
       </div>
     </div>
-    <div class="grid__title">Письменная часть</div>
+    <div class="grid__title"><a href="#">Письменная часть</a></div>
     <div class="grid">
       <div class="tooltip" data-tooltip="Сочинение">
         <button class="link27 open-button" data-popup-target="#popup">27</button>
@@ -114,5 +116,20 @@
       <i class="fas fa-arrow-left"></i>
     </a>
   </div>
+  <div id="popup" class="popup">
+    <div class="popup__header">
+      <div class="title">2 задание</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="popup__body">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui labore reprehenderit ratione, optio tempora, consequuntur ea accusantium rem natus nam fuga reiciendis enim sed rerum! Provident exercitationem tenetur possimus veniam.</p>
+      <br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores natus aperiam fuga, ratione dignissimos quis magni velit! Maxime, aut unde adipisci aperiam suscipit iure deleniti quis, delectus necessitatibus provident alias.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, non? Exercitationem nemo labore porro delectus nobis sint debitis? Ex dolorum quaerat error alias laudantium consequatur modi iusto velit labore iure veritatis consectetur, doloremque architecto esse! Praesentium consequuntur porro explicabo ex doloribus ad provident, laboriosam nam, dolores quis maxime veritatis deserunt.</p>
+    </div>
+  </div>
+  <div id="overlay"></div>
+  <script src="../js/app.js"></script>
 </body>
 </html>
