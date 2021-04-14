@@ -117,16 +117,30 @@
     </a>
   </div>
   <div id="popup" class="popup">
-    <div class="popup__header">
+    <header class="popup__header">
       <div id="popup__title" class="title"></div>
       <button data-close-button class="close-button">&times;</button>
-    </div>
+    </header>
     <div class="popup__body">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui labore reprehenderit ratione, optio tempora, consequuntur ea accusantium rem natus nam fuga reiciendis enim sed rerum! Provident exercitationem tenetur possimus veniam.</p>
-      <br>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores natus aperiam fuga, ratione dignissimos quis magni velit! Maxime, aut unde adipisci aperiam suscipit iure deleniti quis, delectus necessitatibus provident alias.</p>
-      <br>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, non? Exercitationem nemo labore porro delectus nobis sint debitis? Ex dolorum quaerat error alias laudantium consequatur modi iusto velit labore iure veritatis consectetur, doloremque architecto esse! Praesentium consequuntur porro explicabo ex doloribus ad provident, laboriosam nam, dolores quis maxime veritatis deserunt.</p>
+      <div class="info__box">
+
+        <!-- Instructions and start button -->
+        <div class="info__title">
+          <span>Правила теста</span>
+        </div>
+        <div class="info__body">
+          <ol class="rules">
+            <li>У Вас будет <span>30 секунд</span> для того, чтобы дать ответ</li>
+            <li>После выбора ответа Вы не сможете его исправить</li>
+            <li>Вы не сможете выбрать ответ, когда времени не останется</li>
+            <li >Вы получите очки за каждый правильный ответ</li>
+          </ol>
+        </div>
+        <div class="info__footer">
+          <button class="start-button">Начать тест</button>
+          <button class="finish-button">Выйти</button>
+        </div>
+      </div>
     </div>
   </div>
   <div id="overlay"></div>

@@ -17,9 +17,12 @@
 </head>
 
 <body>
+  <!-- Lesson name -->
   <div class="container">
     <h1 class="header"><a href="#">Математика</a></h1>
   </div>
+
+  <!-- Task grid -->
   <div class="grid__container">
     <div class="grid__title">1 часть</div>
     <div class="grid">
@@ -85,22 +88,52 @@
       </div>
     </div>
   </div>
+
+  <!-- Arrow back -->
   <div class="back">
     <a href="../index.html" class="arrow">
       <i class="fas fa-arrow-left"></i>
     </a>
   </div>
+
+  <!-- Popup -->
   <div id="popup" class="popup">
-    <div class="popup__header">
-      <div id="popup__title" class="title">2 задание</div>
+    <header class="popup__header">
+      <div id="popup__title" class="title"></div>
       <button data-close-button class="close-button">&times;</button>
-    </div>
+    </header>
     <div class="popup__body">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui labore reprehenderit ratione, optio tempora, consequuntur ea accusantium rem natus nam fuga reiciendis enim sed rerum! Provident exercitationem tenetur possimus veniam.</p>
-      <br>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores natus aperiam fuga, ratione dignissimos quis magni velit! Maxime, aut unde adipisci aperiam suscipit iure deleniti quis, delectus necessitatibus provident alias.</p>
-      <br>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, non? Exercitationem nemo labore porro delectus nobis sint debitis? Ex dolorum quaerat error alias laudantium consequatur modi iusto velit labore iure veritatis consectetur, doloremque architecto esse! Praesentium consequuntur porro explicabo ex doloribus ad provident, laboriosam nam, dolores quis maxime veritatis deserunt.</p>
+      <div class="info__box">
+
+        <!-- Instructions and start button -->
+        <div class="info__title">
+          <span>Правила теста</span>
+        </div>
+        <div class="info__body">
+          <ol class="rules">
+            <li>У Вас будет <span>30 секунд</span> для того, чтобы дать ответ</li>
+            <li>После выбора ответа Вы не сможете его исправить</li>
+            <li>Вы не сможете выбрать ответ, когда времени не останется</li>
+            <li >Вы получите очки за каждый правильный ответ</li>
+          </ol>
+        </div>
+        <div class="info__footer">
+          <button class="start-button">Начать тест</button>
+          <button class="finish-button">Выйти</button>
+        </div>
+      </div>
+
+      <!-- Quiz -->
+      <div class="quiz__box">
+
+        <div class="quiz__title">
+          <span>Задание</span>
+        </div>
+        <div class="quiz__body">
+        </div>
+        <div class="quiz__footer">
+        </div>
+      </div>
     </div>
   </div>
   <div id="overlay"></div>
