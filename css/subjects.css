@@ -148,11 +148,6 @@
   user-select: none;
 }
 
-.popup__body {
-  padding: 0 15px 15px 15px;
-  font-family: Poppins;
-}
-
 #overlay {
   position: fixed;
   opacity: 0;
@@ -172,18 +167,21 @@
   pointer-events: all;
 }
 
+.info__box {
+  margin: 15px;
+}
+
 .info__title {
   text-align: left;
   font-size: 23px;
   line-height: 40px;
-  padding-left: 10px;
   font-weight: bold;
 }
 
-.rules {
+.info__body {
   font-size: 19px;
   line-height: 27px;
-  margin: 0 0 40px 50px;
+  margin: 0 0 30px 50px;
 }
 
 .rules li span {
@@ -208,6 +206,31 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.start-button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.start-button span:after {
+  content: "\f101";
+  font-size: 22px;
+  position: absolute;
+  opacity: 0;
+  top: -2px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.start-button:hover span {
+  padding-right: 25px;
+}
+
+.start-button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .finish-button {
