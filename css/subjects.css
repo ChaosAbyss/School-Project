@@ -130,7 +130,7 @@
 }
 
 .popup__header .title {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -180,17 +180,26 @@
 
 .info__body {
   font-size: 19px;
-  line-height: 27px;
-  margin: 0 0 30px 50px;
+  line-height: 25px;
+  margin: 0 0 30px 8%;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
 }
 
 .rules li span {
   font-weight: bold;
 }
 
-.info__footer {
-  display: flex;
-  justify-content: space-around;
+.popup__footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
 }
 
 .start-button,
@@ -208,31 +217,42 @@
   user-select: none;
 }
 
-.start-button span {
+.start-button span,
+.finish-button span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.start-button span:after {
-  content: "\f101";
+.start-button span:after,
+.finish-button span:after {
   font-size: 22px;
   position: absolute;
   opacity: 0;
-  top: -2px;
+  top: -1px;
   right: -20px;
   transition: 0.5s;
 }
 
-.start-button:hover span {
+.start-button span::after {
+  content: "\f0da";
+}
+
+.finish-button span::after {
+  content: "\f00d";
+}
+
+.start-button:hover span,
+.finish-button:hover span {
   padding-right: 25px;
 }
 
-.start-button:hover span:after {
+.start-button:hover span:after,
+.finish-button:hover span:after {
   opacity: 1;
   right: 0;
 }
 
-.finish-button {
+.quiz__box {
   display: none;
 }
