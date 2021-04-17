@@ -104,7 +104,6 @@
     </header>
     <div class="popup__body">
       <div id="info__box" class="info__box">
-        <!-- Instructions and start button -->
         <div class="info__title">
           <span>Правила теста</span>
         </div>
@@ -121,19 +120,32 @@
         <button id="start-button" class="start-button"><span>Начать</span></button>
         <button id="finish-button" class="finish-button"><span>Выйти</span></button>
       </div>
+    </div>
+  </div>
 
-      <!-- Quiz -->
-      <div class="quiz__box">
+  <!-- Quiz -->
+  <div id="popup" class="popup active">
+    <header class="popup__header">
+      <div id="popup__title" class="title"></div>
+    </header>
+    <div class="popup__body">
+      <div id="quiz__box" class="quiz__box">
         <div class="quiz__title">
-          <span>Задание</span>
+          Тест
         </div>
         <div class="quiz__body">
-        </div>
-        <div class="quiz__footer">
+          <ol class="rules">
+            <li>У Вас будет <span>30 секунд</span> для того, чтобы дать ответ</li>
+            <li>После выбора ответа Вы не сможете его исправить</li>
+            <li>Вы не сможете выбрать ответ, когда времени не останется</li>
+            <li >Вы получите очки за каждый правильный ответ</li>
+          </ol>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Overlay -->
   <div id="overlay"></div>
   <script src="../js/app.js"></script>
 </body>
