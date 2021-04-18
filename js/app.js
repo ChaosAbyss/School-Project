@@ -27,26 +27,32 @@ function reply_click(clicked_id) {
 
 function openPopup(popup) {
   if (popup == null) return
+  popup.style.visibility = "visible";
+  popup.style.opacity = "1";
   popup.classList.add('active')
   overlay.classList.add('active')
   const startButton = document.getElementById('start-button') 
-  const finishButton = document.getElementById('finish-button') 
-  startTask(startButton)
-  finishTask(finishButton)
+  startTask(popup, startButton)
 }
 
 function closePopup(popup) {
   if (popup == null) return
+  popup.style.visibility = "hidden";
+  popup.style.opacity = "0"
   popup.classList.remove('active')
   overlay.classList.remove('active')
   const infoBox = document.getElementById('info__box')
-  setTimeout(() => { infoBox.style.display = 'initial'; }, 300);
+  const startButton = document.getElementById('start-button') 
+  setTimeout(() => { infoBox.style.display = 'initial'; startButton.style.display = 'initial';}, 300);
 }
 
-function startTask(startButton) {
+function startTask(popup, startButton) {
   startButton.addEventListener('click', () => {
     const infoBox = document.getElementById('info__box')
+    const startButton = document.getElementById('start-button') 
+    popup.classList.remove('active')
     infoBox.style.display = 'none'
+    startButton.style.display = 'none'
   })
 }
 
