@@ -22,11 +22,11 @@
   display: grid;
   margin: 0 auto;
   max-width: 600px;
-  column-gap: 25px;
+  column-gap: 40px;
   grid-template-columns: repeat(auto-fill, 250px);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .vertical__row {
     display: grid;
     margin: 0 auto;
@@ -63,21 +63,21 @@
 
 .contents__math {
   position: relative;
-  top: 10px;
+  top: 5px;
 }
 
 .contents__rus {
   position: relative;
-  top: 24px;
+  top: 19px;
 }
 
 h6 {
-  padding: 25px 0 15px;
+  padding: 25px 0 10px;
   font-weight: bold;
 }
 
 .list {
-  margin-left: 10px;
+  margin-left: 18px;
 }
 
 .list > li {
