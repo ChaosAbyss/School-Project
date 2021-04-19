@@ -107,7 +107,7 @@
   padding: 10px 12px;
   border-radius: 12px;
   font-weight: bold;
-  background-color: rgba(0, 200, 245, 0.8);
+  background-color: rgba(71, 221, 255, 0.9);
   color: white;
   transition: all 0.3s;
   -webkit-user-select: none;
@@ -171,8 +171,9 @@
 .popup__header {
   padding: 15px 20px 20px 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  line-height: 40px;
 }
 
 .popup__header .title {

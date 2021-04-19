@@ -90,9 +90,9 @@
   </div>
 
   <!-- Back to the main page -->
-  <div class="footer">
+  <footer class="footer">
     <a class="back" href="../index.html"><span>На главную</span></a>
-  </div>
+  </footer>
 
   <!-- Popup -->
   <div id="popup" class="popup">
@@ -118,17 +118,22 @@
       </div>
     </div>
     <!-- Popup footer -->
-    <div class="popup__footer">
+    <footer class="popup__footer">
       <button id="start-button" class="start-button"><span>Начать</span></button>
-    </div>
+    </footer>
   </div>
 
   <!-- Quiz -->
-  <div id="popup" class="popup">
+  <div id="quiz" class="popup">
+    <!-- Quiz header  -->
     <header class="popup__header">
-      <div id="popup__title" class="title"></div>
+      <div id="quiz__title" class="title"></div>
+      <div class="timer">
+        <div class="time__text">Time left</div>
+        <div class="time__sec">15</div>
+      </div>
     </header>
-
+    <!-- Quiz body -->
     <div class="popup__body">
       <div id="quiz__box" class="quiz__box">
         <div class="quiz__title">
@@ -144,6 +149,13 @@
         </div>
       </div>
     </div>
+    <!-- Quiz footer -->
+    <footer class="popup__footer">
+      <!-- <button id="finish-button" class="finish-button"><span>Выйти</span></button> -->
+      <div class="task-counter">
+        <span>0 Questions</span>
+      </div>
+    </footer>
   </div>
 
   <!-- Overlay -->

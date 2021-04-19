@@ -21,8 +21,10 @@ closePopupButtons.forEach(button => {
 
 // Change popup title
 function reply_click(clicked_id) {
-  title = document.getElementById("popup__title")
-  title.innerHTML = clicked_id + " задание"
+  popupTitle = document.getElementById("popup__title")
+  quizTitle = document.getElementById("quiz__title")
+  popupTitle.innerHTML = clicked_id + " задание"
+  quizTitle.innerHTML = clicked_id + " задание"
 }
 
 function openPopup(popup) {
@@ -48,17 +50,23 @@ function closePopup(popup) {
 
 function startTask(popup, startButton) {
   startButton.addEventListener('click', () => {
-    const infoBox = document.getElementById('info__box')
-    const startButton = document.getElementById('start-button') 
+    const quiz = document.getElementById('quiz')
+    const finishButton = document.getElementById('finish-button') 
     popup.classList.remove('active')
-    infoBox.style.display = 'none'
-    startButton.style.display = 'none'
+    setTimeout(() => {
+    quiz.classList.add('active');
+    quiz.style.visibility = 'visible';
+    quiz.style.opacity = '1'}, 350);
+    finishTask(quiz, finishButton)
   })
 }
 
-function finishTask(finishButton) {
-  const infoBox = document.getElementById('info__box')
+function finishTask(quiz, finishButton) {
+  if (finishButton == null) return
   finishButton.addEventListener('click', () => {
-    infoBox.style.display = 'initial'
+    quiz.classList.remove('active')
+    quiz.style.visibility = 'hidden' 
+    quiz.style.opacity = '0'
+    overlay.classList.remove('active')
   })
 }
