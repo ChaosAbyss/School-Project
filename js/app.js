@@ -20,17 +20,17 @@ closePopupButtons.forEach(button => {
 })
 
 // Change popup title
-function reply_click(clicked_id) {
-  popupTitle = document.getElementById("popup__title")
-  quizTitle = document.getElementById("quiz__title")
-  popupTitle.innerHTML = clicked_id + " задание"
-  quizTitle.innerHTML = clicked_id + " задание"
+function replyClick(clicked_id) {
+  popupTitle = document.getElementById('popup__title')
+  quizTitle = document.getElementById('quiz__title')
+  popupTitle.innerHTML = clicked_id + ' задание'
+  quizTitle.innerHTML = clicked_id + ' задание'
 }
 
 function openPopup(popup) {
   if (popup == null) return
-  popup.style.visibility = "visible";
-  popup.style.opacity = "1";
+  popup.style.visibility = 'visible';
+  popup.style.opacity = '1';
   popup.classList.add('active')
   overlay.classList.add('active')
   const startButton = document.getElementById('start-button') 
@@ -39,8 +39,8 @@ function openPopup(popup) {
 
 function closePopup(popup) {
   if (popup == null) return
-  popup.style.visibility = "hidden";
-  popup.style.opacity = "0"
+  popup.style.visibility = 'hidden';
+  popup.style.opacity = '0'
   popup.classList.remove('active')
   overlay.classList.remove('active')
   const infoBox = document.getElementById('info__box')
