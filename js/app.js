@@ -83,7 +83,7 @@ function showQuestions() {
   const questionText = document.getElementById('task__text')
   const questionImage = document.getElementById('task__image')
   const questionQuestion = document.getElementById('task__question')
-  let title = questions_math[0].number
+  let number = questions_math[0].number
   let text = questions_math[0].task
   let image = questions_math[0].image
   let question = questions_math[0].question
