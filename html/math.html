@@ -1,169 +1,178 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
 
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/subjects.css">
-  <link rel="icon" href="../img/math.svg">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/subjects.css" />
+    <link rel="icon" href="../img/math.svg" />
 
-  <title>Math</title>
-</head>
+    <title>Math</title>
+  </head>
 
-<body>
+  <body>
     <!-- Subject name -->
-  <header class="container">
-    <h1 class="subject-title"><a href="#">Математика</a></h1>
-  </header>
-
-  <!-- Task grid -->
-  <div class="grid__container">
-    <div class="grid__title">1 часть</div>
-    <div class="grid">
-      <div class="tooltip" data-tooltip="Простейшие текстовые задачи">
-        <button id="1" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">1</button>
-      </div>
-      <div class="tooltip" data-tooltip="Графики и диаграммы">
-        <button id="2" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">2</button>
-      </div>
-      <div class="tooltip" data-tooltip="Геометрические фигуры, координаты">
-        <button id="3" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">3</button>
-      </div>
-      <div class="tooltip" data-tooltip="Начала теории вероятностей">
-        <button id="4" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">4</button>
-      </div>
-      <div class="tooltip" data-tooltip="Уравнения и неравенства">
-        <button id="5" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">5</button>
-      </div>
-      <div class="tooltip" data-tooltip="Планиметрия">
-        <button id="6" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">6</button>
-      </div>
-      <div class="tooltip" data-tooltip="Производная и первообразная">
-        <button id="7" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">7</button>
-      </div>
-      <div class="tooltip" data-tooltip="Стереометрия">
-        <button id="8" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">8</button>
-      </div>
-      <div class="tooltip" data-tooltip="Вычисления и преобразования">
-        <button id="9" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">9</button>
-      </div>
-      <div class="tooltip" data-tooltip="Задачи с прикладным содержанием">
-        <button id="10" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">10</button>
-      </div>
-      <div class="tooltip" data-tooltip="Текстовые задачи">
-        <button id="11" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">11</button>
-      </div>
-      <div class="tooltip" data-tooltip="Наибольшее и наименьшее значение функций">
-        <button id="12" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">12</button>
-      </div>
-    </div>
-    <div class="grid__title">2 часть</div>
-    <div class="grid">
-      <div class="tooltip" data-tooltip="Уравнения">
-        <button id="13" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">13</button>
-      </div>
-      <div class="tooltip" data-tooltip="Стереометрическая задача">
-        <button id="14" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">14</button>
-      </div>
-      <div class="tooltip" data-tooltip="Неравенства">
-        <button id="15" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">15</button>
-      </div>
-      <div class="tooltip" data-tooltip="Планиметрическая задача">
-        <button id="16" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">16</button>
-      </div>
-      <div class="tooltip" data-tooltip="Финансовая математика">
-        <button id="17" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">17</button>
-      </div>
-      <div class="tooltip" data-tooltip="Задача с параметром">
-        <button id="18" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">18</button>
-      </div>
-      <div class="tooltip" data-tooltip="Числа и их свойства">
-        <button id="19" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">19</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Back to the main page -->
-  <footer class="footer">
-    <a class="back" href="../index.html"><span>На главную</span></a>
-  </footer>
-
-  <!-- Popup -->
-  <div id="popup" class="popup">
-    <!-- Popup header  -->
-    <header class="popup__header">
-      <div id="popup__title" class="title"></div>
-      <button data-close-button class="close-button">&times;</button>
+    <header class="container">
+      <h1 class="subject-title"><a href="#">Математика</a></h1>
     </header>
-    <!-- Popup body -->
-    <div class="popup__body">
-      <div id="info__box" class="info__box">
-        <div class="info__title">
-          <span>Правила теста</span>
+
+    <!-- Task grid -->
+    <div class="grid__container">
+      <div class="grid__title">1 часть</div>
+      <div class="grid">
+        <div class="tooltip" data-tooltip="Простейшие текстовые задачи">
+          <button id="1" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">1</button> 
         </div>
-        <div class="info__body">
-          <ol class="rules">
-            <li>У Вас будет <span>30 секунд</span> для того, чтобы дать ответ</li>
-            <li>После выбора ответа Вы не сможете его исправить</li>
-            <li>Вы не сможете выбрать ответ, когда времени не останется</li>
-            <li >Вы получите очки за каждый правильный ответ</li>
-          </ol>
+        <div class="tooltip" data-tooltip="Графики и диаграммы"> 
+          <button id="2" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">2</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Геометрические фигуры, координаты"> 
+          <button id="3" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">3</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Начала теории вероятностей"> 
+          <button id="4" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">4</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Уравнения и неравенства"> 
+          <button id="5" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">5</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Планиметрия"> 
+          <button id="6" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">6</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Производная и первообразная"> 
+          <button id="7" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">7</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Стереометрия"> 
+          <button id="8" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">8</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Вычисления и преобразования"> 
+          <button id="9" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">9</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Задачи с прикладным содержанием"> 
+          <button id="10" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">10</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Текстовые задачи"> 
+          <button id="11" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">11</button> 
+        </div>
+        <div class="tooltip" data-tooltip="Наибольшее и наименьшее значение функций"> 
+          <button id="12" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popu">12</button>
+        </div>
+      </div>
+      <div class="grid__title">2 часть</div>
+      <div class="grid">
+        <div class="tooltip" data-tooltip="Уравнения"> 
+          <button id="13" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">13</button>
+        </div>
+        <div class="tooltip" data-tooltip="Стереометрическая задача"> 
+          <button id="14" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">14</button>
+        </div>
+        <div class="tooltip" data-tooltip="Неравенства">
+          <button id="15" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">15</button>
+        </div>
+        <div class="tooltip" data-tooltip="Планиметрическая задача"> 
+          <button id="16" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">16</button>
+        </div>
+        <div class="tooltip" data-tooltip="Финансовая математика">
+          <button id="17" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">17</button>
+        </div>
+        <div class="tooltip" data-tooltip="Задача с параметром">
+          <button id="18" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">18</button>
+        </div>
+        <div class="tooltip" data-tooltip="Числа и их свойства">
+          <button id="19" class="open-button" onClick="replyClick(this.id)" data-popup-target="#popup">19</button>
         </div>
       </div>
     </div>
-    <!-- Popup footer -->
-    <footer class="popup__footer">
-      <button id="start-button" class="start-button"><span>Начать</span></button>
+
+    <!-- Back to the main page -->
+    <footer class="footer">
+      <a class="back" href="../index.html"><span>На главную</span></a>
     </footer>
-  </div>
 
-  <!-- Quiz -->
-  <div id="quiz" class="popup">
-    <!-- Quiz header  -->
-    <header class="popup__header">
-      <div id="quiz__title" class="title"></div>
-      <div class="timer">
-        <span class="timer__text">Времени потрачено:&nbsp;</span>
-        <span class="timer__sec">0с</span>
-      </div>
-    </header>
-    <!-- Quiz body -->
-    <div class="popup__body">
-      <div id="quiz__box" class="quiz__box">
-        <div class="quiz__title">
-          Тест
-        </div>
-        <div class="quiz__body">
-          <div class="task__number"></div>
-          <div class="task__text"></div>
-          <div class="task__question"></div>
-          <div class="task__image"></div>
-          <div class="answer">
-            <input type="text" id="input" placeholder="Ответ">
-            <button class="check-button">Проверить</button>
+    <!-- Popup -->
+    <div id="popup" class="popup">
+      <!-- Popup header  -->
+      <header class="popup__header">
+        <div id="popup__title" class="title"></div>
+        <button data-close-button class="close-button">&times;</button>
+      </header>
+      <!-- Popup body -->
+      <div class="popup__body">
+        <div id="info__box" class="info__box">
+          <div class="info__title">
+            <span>Правила теста</span>
+          </div>
+          <div class="info__body">
+            <ol class="rules">
+              <li>
+                У Вас будет <span>30 секунд</span> для того, чтобы дать ответ
+              </li>
+              <li>После выбора ответа Вы не сможете его исправить</li>
+              <li>Вы не сможете выбрать ответ, когда времени не останется</li>
+              <li>Вы получите очки за каждый правильный ответ</li>
+            </ol>
           </div>
         </div>
       </div>
+      <!-- Popup footer -->
+      <footer class="popup__footer">
+        <button id="start-button" class="start-button">
+          <span>Начать</span>
+        </button>
+      </footer>
     </div>
-    <!-- Quiz footer -->
-    <footer class="popup__footer">
-      <!-- <button id="finish-button" class="finish-button"><span>Выйти</span></button> -->
-      <div class="task-counter">
-        <span>0 из 0</span>
+
+    <!-- Quiz -->
+    <div id="quiz" class="popup">
+      <!-- Quiz header  -->
+      <header class="popup__header">
+        <div id="quiz__title" class="title"></div>
+        <div class="timer">
+          <span class="timer__text">Времени потрачено:&nbsp;</span>
+          <span class="timer__sec">0с</span>
+        </div>
+      </header>
+      <!-- Quiz body -->
+      <div class="popup__body">
+        <div id="quiz__box" class="quiz__box">
+          <div class="quiz__body">
+            <div id="task__text">
+              <span id="task__number"></span>
+            </div>
+            <div id="task__image"></div>
+            <div id="task__question"></div>
+            <div id="answer" class="answer">
+              <input type="text" id="input" placeholder="Ответ" />
+              <button class="check-button">Проверить</button>
+            </div>
+          </class:>
+        </div>
       </div>
-    </footer>
-  </div>
+      <!-- Quiz footer -->
+      <footer class="popup__footer">
+        <div class="task-counter">0 из 0</div>
+      </footer>
+      </div>
+    </div>
 
-  <!-- Overlay -->
-  <div id="overlay"></div>
+    <!-- Overlay -->
+    <div id="overlay"></div>
 
-  <!-- JavaScript -->
-  <script src="../js/app.js"></script>
-</body>
+    <!-- JavaScript -->
+    <script src="../js/app.js"></script>
+    <script src="../js/questions_math.js"></script>
+  </body>
 </html>
