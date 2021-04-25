@@ -388,13 +388,14 @@
       <!-- Quiz body -->
       <div class="popup__body">
         <div id="quiz__box" class="quiz__box">
-          <div class="quiz__title">Тест</div>
           <div class="quiz__body">
-            <div class="task__number"></div>
-            <div class="task__text"></div>
-            <div class="task__question"></div>
-            <div class="task__image"></div>
-            <div class="answer">
+            <div class="description">
+              <span id="task__number"></span>
+              <div id="task__text"></div>
+            </div>
+            <div id="task__image"></div>
+            <div id="task__question"></div>
+            <div id="answer" class="answer">
               <input type="text" id="input" placeholder="Ответ" />
               <button class="check-button">Проверить</button>
             </div>
@@ -403,10 +404,7 @@
       </div>
       <!-- Quiz footer -->
       <footer class="popup__footer">
-        <!-- <button id="finish-button" class="finish-button"><span>Выйти</span></button> -->
-        <div class="task-counter">
-          <span>0 из 0</span>
-        </div>
+        <div class="task__counter">0 из 0</div>
       </footer>
     </div>
 
@@ -415,5 +413,7 @@
 
     <!-- JavaScript -->
     <script src="../js/app.js"></script>
+    <script src="../js/questions_rus.js"></script>
+    <script src="../js/questions_math.js"></script>
   </body>
 </html>
