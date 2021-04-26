@@ -34,7 +34,7 @@ function openPopup(popup) {
   popup.classList.add('active')
   overlay.classList.add('active')
   const startButton = document.getElementById('start-button')
-  startTask(popup, startButton)
+  startQuiz(popup, startButton)
 }
 
 function closePopup(popup) {
@@ -45,16 +45,18 @@ function closePopup(popup) {
   overlay.classList.remove('active')
   const infoBox = document.getElementById('info__box')
   const startButton = document.getElementById('start-button')
+  const input = document.getElementById('input')
   setTimeout(() => {
     infoBox.style.display = 'initial'
     startButton.style.display = 'initial'
+    input.style.display = 'initial'
   }, 300)
 }
 
-function startTask(popup, startButton) {
+function startQuiz(popup, startButton) {
   startButton.addEventListener('click', () => {
     const quiz = document.getElementById('quiz')
-    const finishButton = document.getElementById('finish-button')
+    total = document.getElementById('total')
     popup.classList.remove('active')
     popup.style.visibility = 'hidden'
     popup.style.opacity = '0'
@@ -63,18 +65,12 @@ function startTask(popup, startButton) {
       quiz.style.visibility = 'visible'
       quiz.style.opacity = '1'
       showQuestions()
+      total.innerHTML = questions_math.length
     }, 350)
-    finishTask(quiz, finishButton)
-  })
-}
-
-function finishTask(quiz, finishButton) {
-  if (finishButton == null) return
-  finishButton.addEventListener('click', () => {
-    quiz.classList.remove('active')
-    quiz.style.visibility = 'hidden'
-    quiz.style.opacity = '0'
-    overlay.classList.remove('active')
+    const checkButton = document.getElementById('check-button')
+    checkButton.addEventListener('click', () => {
+      checkAnswer()
+    })
   })
 }
 
@@ -91,4 +87,14 @@ function showQuestions() {
   questionText.innerHTML = text
   questionImage.innerHTML = image
   questionQuestion.innerHTML = question
+}
+
+function checkAnswer() {
+  const answer = questions_math[0].answer
+  const input = document.getElementById('input')
+  if (input.value == answer) {
+    input.style.borderColor = '#5ef00a'
+  } else {
+    input.style.borderColor = '#f00a0a'
+  }
 }

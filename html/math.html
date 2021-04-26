@@ -276,10 +276,7 @@
       <!-- Quiz header  -->
       <header class="popup__header">
         <div id="quiz__title" class="title"></div>
-        <div class="timer">
-          <span class="timer__text">Времени потрачено:&nbsp;</span>
-          <span class="timer__sec">0с</span>
-        </div>
+        <button data-close-button class="close-button">&times;</button>
       </header>
       <!-- Quiz body -->
       <div class="popup__body">
@@ -293,14 +290,18 @@
             <div id="task__question"></div>
             <div id="answer" class="answer">
               <input type="text" id="input" placeholder="Ответ" />
-              <button class="check-button">Проверить</button>
+              <button id="check-button" class="check-button">Проверить</button>
             </div>
           </div>
         </div>
       </div>
       <!-- Quiz footer -->
       <footer class="popup__footer">
-        <div class="task__counter">0 из 0</div>
+        <div class="task__counter">
+          <span id="done" class="done">0</span>
+          <span>из</span>
+          <span id="total" class="total"></span>
+        </div>
       </footer>
     </div>
 
