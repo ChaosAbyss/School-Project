@@ -45,11 +45,9 @@ function closePopup(popup) {
   overlay.classList.remove('active')
   const infoBox = document.getElementById('info__box')
   const startButton = document.getElementById('start-button')
-  const input = document.getElementById('input')
   setTimeout(() => {
     infoBox.style.display = 'initial'
     startButton.style.display = 'initial'
-    input.style.display = 'initial'
   }, 300)
 }
 
@@ -79,10 +77,11 @@ function showQuestions() {
   const questionText = document.getElementById('task__text')
   const questionImage = document.getElementById('task__image')
   const questionQuestion = document.getElementById('task__question')
-  let number = questions_math[0].number
-  let text = questions_math[0].task
-  let image = questions_math[0].image
-  let question = questions_math[0].question
+  const random = getRandomInt(55)
+  let number = questions_math[random].number
+  let text = questions_math[random].text
+  let image = questions_math[random].image
+  let question = questions_math[random].question
   questionNumber.innerHTML = number
   questionText.innerHTML = text
   questionImage.innerHTML = image
@@ -97,4 +96,8 @@ function checkAnswer() {
   } else {
     input.style.borderColor = '#f00a0a'
   }
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max)
 }
