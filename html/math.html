@@ -38,7 +38,7 @@
           <button
             id="1"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             1
@@ -48,7 +48,7 @@
           <button
             id="2"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             2
@@ -58,7 +58,7 @@
           <button
             id="3"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             3
@@ -68,7 +68,7 @@
           <button
             id="4"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             4
@@ -78,7 +78,7 @@
           <button
             id="5"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             5
@@ -88,7 +88,7 @@
           <button
             id="6"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             6
@@ -98,7 +98,7 @@
           <button
             id="7"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             7
@@ -108,7 +108,7 @@
           <button
             id="8"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             8
@@ -118,7 +118,7 @@
           <button
             id="9"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             9
@@ -128,7 +128,7 @@
           <button
             id="10"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             10
@@ -138,7 +138,7 @@
           <button
             id="11"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             11
@@ -151,7 +151,7 @@
           <button
             id="12"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             12
@@ -164,7 +164,7 @@
           <button
             id="13"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             13
@@ -174,7 +174,7 @@
           <button
             id="14"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             14
@@ -184,7 +184,7 @@
           <button
             id="15"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             15
@@ -194,7 +194,7 @@
           <button
             id="16"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             16
@@ -204,7 +204,7 @@
           <button
             id="17"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             17
@@ -214,7 +214,7 @@
           <button
             id="18"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             18
@@ -224,7 +224,7 @@
           <button
             id="19"
             class="open-button"
-            onClick="replyClick(this.id)"
+            onClick="getId(this.id); replyClick(this.id)"
             data-popup-target="#popup"
           >
             19
@@ -283,21 +283,28 @@
         <div id="quiz__box" class="quiz__box">
           <div class="quiz__body">
             <div class="description">
-              <span id="task__number"></span>
-              <div id="task__text"></div>
+              <!-- <span id="task__number"></span> -->
+              <div id="task__text" class="inactive"></div>
             </div>
-            <div id="task__image"></div>
-            <div id="task__question"></div>
+            <div id="task__image" class="inactive"></div>
+            <div id="task__question" class="inactive"></div>
             <div id="answer" class="answer">
-              <input type="text" id="input" placeholder="Ответ" />
-              <button id="check-button" class="check-button">Проверить</button>
+              <input
+                type="text"
+                id="input"
+                class="inactive"
+                placeholder="Ответ"
+              />
+              <button id="check-button" class="check-button inactive">
+                Проверить
+              </button>
             </div>
           </div>
         </div>
       </div>
       <!-- Quiz footer -->
       <footer class="popup__footer">
-        <div class="task__counter">
+        <div id="task__counter" class="task__counter inactive">
           <span id="done" class="done">0</span>
           <span>из</span>
           <span id="total" class="total"></span>

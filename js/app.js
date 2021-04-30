@@ -27,6 +27,10 @@ function replyClick(clicked_id) {
   quizTitle.innerHTML = clicked_id + ' задание'
 }
 
+function getId(clicked_id) {
+  globalThis.currentTask = clicked_id
+}
+
 function openPopup(popup) {
   if (popup == null) return
   popup.style.visibility = 'visible'
@@ -45,16 +49,18 @@ function closePopup(popup) {
   overlay.classList.remove('active')
   const infoBox = document.getElementById('info__box')
   const startButton = document.getElementById('start-button')
+  const input = document.getElementById('input')
   setTimeout(() => {
     infoBox.style.display = 'initial'
     startButton.style.display = 'initial'
+    input.value = ''
+    input.classList.remove('right') | input.classList.remove('wrong')
   }, 300)
 }
 
 function startQuiz(popup, startButton) {
   startButton.addEventListener('click', () => {
     const quiz = document.getElementById('quiz')
-    total = document.getElementById('total')
     popup.classList.remove('active')
     popup.style.visibility = 'hidden'
     popup.style.opacity = '0'
@@ -62,39 +68,71 @@ function startQuiz(popup, startButton) {
       quiz.classList.add('active')
       quiz.style.visibility = 'visible'
       quiz.style.opacity = '1'
-      showQuestions()
-      total.innerHTML = questions_math.length
+      showTasks()
     }, 350)
     const checkButton = document.getElementById('check-button')
+    const input = document.getElementById('input')
     checkButton.addEventListener('click', () => {
-      checkAnswer()
+      if (input.value !== '') {
+        checkAnswer()
+      }
     })
   })
 }
 
-function showQuestions() {
-  const questionNumber = document.getElementById('task__number')
-  const questionText = document.getElementById('task__text')
-  const questionImage = document.getElementById('task__image')
-  const questionQuestion = document.getElementById('task__question')
+function showTasks() {
+  const taskText = document.getElementById('task__text')
+  const taskImage = document.getElementById('task__image')
+  const taskQuestion = document.getElementById('task__question')
+  const answer = document.getElementById('answer')
+  const input = document.getElementById('input')
+  const checkButton = document.getElementById('check-button')
+  const taskCounter = document.getElementById('task__counter')
+  const total = document.getElementById('total')
   const random = getRandomInt(55)
-  let number = questions_math[random].number
-  let text = questions_math[random].text
-  let image = questions_math[random].image
-  let question = questions_math[random].question
-  questionNumber.innerHTML = number
-  questionText.innerHTML = text
-  questionImage.innerHTML = image
-  questionQuestion.innerHTML = question
+  try {
+    let text = questions_math[currentTask - 1][random].text
+    let image = questions_math[currentTask - 1][random].image
+    let question = questions_math[currentTask - 1][random].question
+
+    if (text !== undefined) {
+      taskText.classList.remove('inactive')
+      taskText.innerHTML = text
+    }
+    if (image !== undefined) {
+      taskImage.classList.remove('inactive')
+      taskImage.innerHTML = image
+    }
+    if (image !== undefined) {
+      taskQuestion.classList.remove('inactive')
+      taskQuestion.innerHTML = question
+    }
+    answer.classList.remove('inactive')
+    input.classList.remove('inactive')
+    checkButton.classList.remove('inactive')
+    taskCounter.classList.remove('inactive')
+    total.innerHTML = questions_math[currentTask - 1].length
+  } catch {
+    taskText.classList.remove('inactive')
+    taskText.innerHTML = 'Такого задания пока нет'
+    taskImage.classList.add('inactive')
+    taskQuestion.classList.add('inactive')
+    answer.classList.add('inactive')
+    input.classList.add('inactive')
+    checkButton.classList.add('inactive')
+    taskCounter.classList.add('inactive')
+  }
 }
 
 function checkAnswer() {
   const answer = questions_math[0].answer
   const input = document.getElementById('input')
   if (input.value == answer) {
-    input.style.borderColor = '#5ef00a'
+    input.className = ''
+    input.classList.add('right')
   } else {
-    input.style.borderColor = '#f00a0a'
+    input.className = ''
+    input.classList.add('wrong')
   }
 }
 

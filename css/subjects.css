@@ -346,12 +346,12 @@ li:last-child {
   justify-content: left;
 }
 
-.description > span {
+/* .description > span {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 
 .description > span::after {
   content: '.\00a0';
@@ -360,7 +360,7 @@ li:last-child {
 .Formula_img {
   transform: scale(0.9);
   position: relative;
-  top: 4px;
+  top: 1px;
 }
 
 @media (max-width: 500px) {
@@ -392,10 +392,12 @@ li:last-child {
   margin: 0 30px 20px 30px;
 }
 
-.answer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 670px) {
+  .answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 670px) {
@@ -406,12 +408,15 @@ li:last-child {
   }
 }
 
-input {
+#input {
+  /* display: block; */
   background: rgba(200, 200, 200, 0.5);
   border: 3px solid transparent;
   border-radius: 10px;
   font-size: 18px;
   padding: 3px 7px;
+  margin: 0 auto;
+  max-width: 80%;
   transition: background 0.3s;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -419,19 +424,25 @@ input {
   user-select: none;
 }
 
-input:hover {
+#input:hover {
   background: rgba(190, 190, 190, 0.6);
 }
 
-input:focus {
+#input:focus {
   border: 3px solid #00b4db;
 }
 
-#input {
-  max-width: 600px;
+#input.right {
+  border-color: #5ef00a;
+}
+
+#input.wrong {
+  border-color: #f00a00;
 }
 
 .check-button {
+  /* display: block; */
+  max-width: 80%;
   margin: 0 10px;
   padding: 3px 5px;
   font-size: 18px;
