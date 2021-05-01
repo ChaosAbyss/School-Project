@@ -341,20 +341,8 @@ li:last-child {
   }
 }
 
-.description {
-  display: flex;
-  justify-content: left;
-}
-
-/* .description > span {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-} */
-
-.description > span::after {
-  content: '.\00a0';
+#task__text {
+  margin: 0 10px 20px 10px;
 }
 
 .Formula_img {
@@ -385,11 +373,12 @@ li:last-child {
 
 #task__image > img {
   max-width: 400px;
+  max-height: 400px;
   width: 80%;
 }
 
 #task__question {
-  margin: 0 30px 20px 30px;
+  margin: 0 10px 20px 10px;
 }
 
 @media (min-width: 670px) {

@@ -29,6 +29,28 @@ function replyClick(clicked_id) {
 
 function getId(clicked_id) {
   globalThis.currentTask = clicked_id
+  const names = [
+    first,
+    second,
+    third,
+    fourth,
+    fifth,
+    sixth,
+    seventh,
+    eighth,
+    ninth,
+    tenth,
+    eleventh,
+    twelfth,
+    // thirteenth,
+    // fourteenth,
+    // fifteenth,
+    // sixteenth,
+    // seventeenth,
+    // eighteenth,
+    // nineteenth,
+  ]
+  globalThis.currentName = names[clicked_id - 1]
 }
 
 function openPopup(popup) {
@@ -91,9 +113,9 @@ function showTasks() {
   const total = document.getElementById('total')
   const random = getRandomInt(55)
   try {
-    let text = questions_math[currentTask - 1][random].text
-    let image = questions_math[currentTask - 1][random].image
-    let question = questions_math[currentTask - 1][random].question
+    let text = currentName[random].text
+    let image = currentName[random].image
+    let question = currentName[random].question
 
     if (text !== undefined) {
       taskText.classList.remove('inactive')
@@ -111,7 +133,7 @@ function showTasks() {
     input.classList.remove('inactive')
     checkButton.classList.remove('inactive')
     taskCounter.classList.remove('inactive')
-    total.innerHTML = questions_math[currentTask - 1].length
+    total.innerHTML = currentName.length
   } catch {
     taskText.classList.remove('inactive')
     taskText.innerHTML = 'Такого задания пока нет'
@@ -125,7 +147,7 @@ function showTasks() {
 }
 
 function checkAnswer() {
-  const answer = questions_math[0].answer
+  const answer = currentName.answer
   const input = document.getElementById('input')
   if (input.value == answer) {
     input.className = ''
