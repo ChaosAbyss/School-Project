@@ -346,6 +346,7 @@ li:last-child {
 }
 
 .Formula_img {
+  -webkit-user-drag: none;
   transform: scale(0.9);
   position: relative;
   top: 1px;
@@ -372,8 +373,13 @@ li:last-child {
 }
 
 #task__image > img {
-  max-width: 400px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   max-height: 400px;
+  max-width: 400px;
   width: 80%;
 }
 
@@ -381,31 +387,31 @@ li:last-child {
   margin: 0 10px 20px 10px;
 }
 
+.answer {
+  display: grid;
+}
+
 @media (min-width: 670px) {
   .answer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 30px;
   }
 }
 
 @media (max-width: 670px) {
   .answer {
-    display: grid;
     grid-template-rows: 1fr 1fr;
     row-gap: 5px;
   }
 }
 
 #input {
-  /* display: block; */
   background: rgba(200, 200, 200, 0.5);
   border: 3px solid transparent;
   border-radius: 10px;
   font-size: 18px;
   padding: 3px 7px;
-  margin: 0 auto;
-  max-width: 80%;
+  width: 100%;
   transition: background 0.3s;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -429,10 +435,7 @@ li:last-child {
   border-color: #f00a00;
 }
 
-.check-button {
-  /* display: block; */
-  max-width: 80%;
-  margin: 0 10px;
+#check-button {
   padding: 3px 5px;
   font-size: 18px;
   border: 2px solid rgba(200, 200, 200, 0.5);
@@ -445,15 +448,36 @@ li:last-child {
   user-select: none;
 }
 
-.check-button:hover {
+#check-button:hover {
   background: rgba(112, 112, 112, 0.1);
 }
 
-.check-button:active {
+#check-button:active {
   background-color: rgba(112, 112, 112, 0.3);
 }
 
-.task__counter {
+@media (max-width: 500px) {
+  #input,
+  #check-button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  #input,
+  #check-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 300px) {
+  #input,
+  #check-button {
+    font-size: 14px;
+  }
+}
+
+#task__counter {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
