@@ -42,51 +42,53 @@
   height: 100%;
 }
 
-.tooltip {
-  position: relative;
-}
+@media only screen and (min-width: 1025px) {
+  .tooltip {
+    position: relative;
+  }
 
-.tooltip > a {
-  color: white;
-}
+  .tooltip > a {
+    color: white;
+  }
 
-.tooltip::before,
-.tooltip::after {
-  --scale: 0;
-  --arrow-size: 10px;
-  --tooltip-color: rgba(0, 200, 245, 0.8);
-  position: absolute;
-  z-index: 3;
-  top: 3.5rem;
-  left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
-  transition: 0.2s transform;
-  transform-origin: top center;
-}
+  .tooltip::before,
+  .tooltip::after {
+    --scale: 0;
+    --arrow-size: 10px;
+    --tooltip-color: rgba(0, 200, 245, 0.8);
+    position: absolute;
+    z-index: 3;
+    top: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%) scale(var(--scale));
+    transition: 0.2s transform;
+    transform-origin: top center;
+  }
 
-.tooltip::before {
-  content: attr(data-tooltip);
-  width: auto;
-  text-align: center;
-  line-height: 17px;
-  color: white;
-  font-size: 17px;
-  padding: 0.5rem;
-  background: var(--tooltip-color);
-  border-radius: 10px;
-}
+  .tooltip::before {
+    content: attr(data-tooltip);
+    width: auto;
+    text-align: center;
+    line-height: 17px;
+    color: white;
+    font-size: 17px;
+    padding: 0.5rem;
+    background: var(--tooltip-color);
+    border-radius: 10px;
+  }
 
-.tooltip::after {
-  content: '';
-  border: var(--arrow-size) solid transparent;
-  border-bottom-color: var(--tooltip-color);
-  top: calc(2.9 * var(--arrow-size));
-  transform-origin: bottom center;
-}
+  .tooltip::after {
+    content: '';
+    border: var(--arrow-size) solid transparent;
+    border-bottom-color: var(--tooltip-color);
+    top: calc(2.9 * var(--arrow-size));
+    transform-origin: bottom center;
+  }
 
-.tooltip:hover::before,
-.tooltip:hover::after {
-  --scale: 1;
+  .tooltip:hover::before,
+  .tooltip:hover::after {
+    --scale: 1;
+  }
 }
 
 .noTooltip > button {
@@ -369,7 +371,7 @@ li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 #task__image > img {
