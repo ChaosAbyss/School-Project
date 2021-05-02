@@ -22,7 +22,7 @@ const first = [
   {
     number: 3,
     text:
-      '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Шариковая ручка стоит </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/1c383cd30b7c298ab50293adfecb7b18.svg"><span> рублей.Какое наибольшее число таких ручек можно будет купить на </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:3.487ex" src="https://yastatic.net/s3/edu/tex/e5841df2166dd424a57127423d276bbe.svg"><span> рублей после повышения цены на </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:4.061ex" src="https://yastatic.net/s3/edu/tex/0fe9e8b5730588f8cefe9a083b8689e4.svg"><span>?</span></span></div>',
+      '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Шариковая ручка стоит </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/1c383cd30b7c298ab50293adfecb7b18.svg"><span> рублей. Какое наибольшее число таких ручек можно будет купить на </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:3.487ex" src="https://yastatic.net/s3/edu/tex/e5841df2166dd424a57127423d276bbe.svg"><span> рублей после повышения цены на </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:4.061ex" src="https://yastatic.net/s3/edu/tex/0fe9e8b5730588f8cefe9a083b8689e4.svg"><span>?</span></span></div>',
     image: '',
     question: '',
     answer: '18',

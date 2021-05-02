@@ -1,34 +1,66 @@
-// Necessary elements
+// Basic popup
 const openPopupButtons = document.querySelectorAll('[data-popup-target]')
 const closePopupButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
 
-// Grid elements
+// Quiz contents
+const taskText = document.getElementById('task__text')
+const taskImage = document.getElementById('task__image')
+const taskQuestion = document.getElementById('task__question')
+const answer = document.getElementById('answer')
+const taskCounter = document.getElementById('task__counter')
+const total = document.getElementById('total')
+const input = document.getElementById('input')
+const checkButton = document.getElementById('check-button')
+const random = getRandomInt(55)
+
+// Open a quiz from grid
 openPopupButtons.forEach((button) => {
   button.addEventListener('click', () => {
-    const popup = document.querySelector(button.dataset.popupTarget)
-    openPopup(popup)
+    const quiz = document.querySelector(button.dataset.popupTarget)
+    startQuiz(quiz)
   })
 })
 
-// Popup close button
+// Close a quiz via close button
 closePopupButtons.forEach((button) => {
   button.addEventListener('click', () => {
-    const popup = button.closest('.popup')
-    closePopup(popup)
+    const quiz = button.closest('.popup')
+    finishQuiz(quiz)
   })
 })
 
-// Change popup title
+function startQuiz(popup) {
+  quiz.classList.add('active')
+  overlay.classList.add('active')
+  quiz.style.visibility = 'visible'
+  quiz.style.opacity = '1'
+  showTasks()
+  checkButton.addEventListener('click', () => {
+    if (input.value !== '') {
+      checkAnswer()
+    }
+  })
+}
+
+function finishQuiz(quiz) {
+  if (quiz == null) return
+  quiz.style.visibility = 'hidden'
+  quiz.style.opacity = '0'
+  quiz.classList.remove('active')
+  overlay.classList.remove('active')
+  setTimeout(() => {
+    input.value = ''
+    input.classList.remove('right') | input.classList.remove('wrong')
+  }, 300)
+}
+
 function replyClick(clicked_id) {
-  popupTitle = document.getElementById('popup__title')
-  quizTitle = document.getElementById('quiz__title')
-  popupTitle.innerHTML = clicked_id + ' задание'
+  const quizTitle = document.getElementById('quiz__title')
   quizTitle.innerHTML = clicked_id + ' задание'
 }
 
 function getId(clicked_id) {
-  globalThis.currentTask = clicked_id
   const names = [
     first,
     second,
@@ -50,68 +82,11 @@ function getId(clicked_id) {
     // eighteenth,
     // nineteenth,
   ]
+  globalThis.currentTask = clicked_id
   globalThis.currentName = names[clicked_id - 1]
 }
 
-function openPopup(popup) {
-  if (popup == null) return
-  popup.style.visibility = 'visible'
-  popup.style.opacity = '1'
-  popup.classList.add('active')
-  overlay.classList.add('active')
-  const startButton = document.getElementById('start-button')
-  startQuiz(popup, startButton)
-}
-
-function closePopup(popup) {
-  if (popup == null) return
-  popup.style.visibility = 'hidden'
-  popup.style.opacity = '0'
-  popup.classList.remove('active')
-  overlay.classList.remove('active')
-  const infoBox = document.getElementById('info__box')
-  const startButton = document.getElementById('start-button')
-  const input = document.getElementById('input')
-  setTimeout(() => {
-    infoBox.style.display = 'initial'
-    startButton.style.display = 'initial'
-    input.value = ''
-    input.classList.remove('right') | input.classList.remove('wrong')
-  }, 300)
-}
-
-function startQuiz(popup, startButton) {
-  startButton.addEventListener('click', () => {
-    const quiz = document.getElementById('quiz')
-    popup.classList.remove('active')
-    popup.style.visibility = 'hidden'
-    popup.style.opacity = '0'
-    setTimeout(() => {
-      quiz.classList.add('active')
-      quiz.style.visibility = 'visible'
-      quiz.style.opacity = '1'
-      showTasks()
-    }, 350)
-    const checkButton = document.getElementById('check-button')
-    const input = document.getElementById('input')
-    checkButton.addEventListener('click', () => {
-      if (input.value !== '') {
-        checkAnswer()
-      }
-    })
-  })
-}
-
 function showTasks() {
-  const taskText = document.getElementById('task__text')
-  const taskImage = document.getElementById('task__image')
-  const taskQuestion = document.getElementById('task__question')
-  const answer = document.getElementById('answer')
-  const input = document.getElementById('input')
-  const checkButton = document.getElementById('check-button')
-  const taskCounter = document.getElementById('task__counter')
-  const total = document.getElementById('total')
-  const random = getRandomInt(55)
   try {
     let text = currentName[random].text
     let image = currentName[random].image
@@ -147,9 +122,8 @@ function showTasks() {
 }
 
 function checkAnswer() {
-  const answer = currentName.answer
-  const input = document.getElementById('input')
-  if (input.value == answer) {
+  const realAnswer = currentName.answer
+  if (input.value == realAnswer) {
     input.className = ''
     input.classList.add('right')
   } else {
