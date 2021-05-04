@@ -78,7 +78,7 @@
   }
 
   .tooltip::after {
-    content: '';
+    content: "";
     border: var(--arrow-size) solid transparent;
     border-bottom-color: var(--tooltip-color);
     top: calc(2.9 * var(--arrow-size));
@@ -125,7 +125,7 @@
 }
 
 .back span:before {
-  content: '\f0da';
+  content: "\f0da";
   font-size: 22px;
   position: absolute;
   opacity: 0;
@@ -290,11 +290,11 @@ li:last-child {
 }
 
 .start-button span::after {
-  content: '\f0da';
+  content: "\f0da";
 }
 
 .finish-button span::after {
-  content: '\f00d';
+  content: "\f00d";
 }
 
 .start-button:hover span,
@@ -335,8 +335,22 @@ li:last-child {
   }
 }
 
-#task__text {
+#task__read {
+  margin: 10px 10px 20px -5px;
+  font-size: 17px;
+}
+
+#task__description {
   margin: 0 10px 20px 10px;
+}
+
+#task__text {
+  font-style: italic;
+  font-size: 16px;
+  margin: 0 10px 20px 10px;
+  padding: 0 0 0 10px;
+  border-left: 5px solid #00b4db;
+  border-radius: 2px;
 }
 
 .Formula_img {
@@ -344,6 +358,7 @@ li:last-child {
   transform: scale(0.9);
   position: relative;
   top: 1px;
+  max-width: 450px;
 }
 
 @media (max-width: 500px) {
@@ -363,7 +378,7 @@ li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
+  /* margin: 10px auto; */
 }
 
 #task__image > img {
@@ -378,7 +393,22 @@ li:last-child {
 }
 
 #task__question {
-  margin: 0 10px 20px 10px;
+  margin: 10px 10px 20px -5px;
+  font-size: 17px;
+}
+
+#task__options {
+  font-size: 16px;
+  margin: 0 0 10px 20px;
+}
+
+.TaskBlock_type_list_plain > li {
+  list-style: disc;
+}
+
+#task__write {
+  margin: 15px 10px 20px -5px;
+  font-size: 17px;
 }
 
 .answer {
