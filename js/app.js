@@ -88,7 +88,7 @@ function showTasks() {
 
     if (description !== undefined) {
       taskDescription.classList.remove("inactive");
-      taskDescription.innerHTML = text;
+      taskDescription.innerHTML = description;
     }
     if (image !== undefined) {
       taskImage.classList.remove("inactive");
@@ -108,7 +108,26 @@ function showTasks() {
   }
 
   if (document.getElementsByClassName("open-button").length == 27) {
-    var names = [first, second, third, fourth, fifth, sixth];
+    var names = [
+      first,
+      second,
+      third,
+      fourth,
+      fifth,
+      sixth,
+      seventh,
+      eighth,
+      ninth,
+      tenth,
+      eleventh,
+      twelfth,
+      thirteenth,
+      fourteenth,
+      fifteenth,
+      sixteenth,
+      seventeenth,
+      eighteenth,
+    ];
     let random = getRandomInt(names[currentTask - 1].length);
     var read = names[currentTask - 1][random].read;
     var text = names[currentTask - 1][random].text;

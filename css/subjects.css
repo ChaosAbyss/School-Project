@@ -336,7 +336,7 @@ li:last-child {
 }
 
 #task__read {
-  margin: 10px 10px 20px -5px;
+  margin: 10px 10px 20px 5px;
   font-size: 17px;
 }
 
@@ -347,7 +347,7 @@ li:last-child {
 #task__text {
   font-style: italic;
   font-size: 16px;
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 20px 25px;
   padding: 0 0 0 10px;
   border-left: 5px solid #00b4db;
   border-radius: 2px;
@@ -393,21 +393,67 @@ li:last-child {
 }
 
 #task__question {
-  margin: 10px 10px 20px -5px;
+  margin: 10px 10px 20px 5px;
   font-size: 17px;
 }
 
 #task__options {
   font-size: 16px;
-  margin: 0 0 10px 20px;
+  margin: 0 0 10px 40px;
 }
 
 .TaskBlock_type_list_plain > li {
   list-style: disc;
 }
 
+.TaskBlock_type_lists {
+  font-size: 16px;
+}
+
+.TaskBlock-BlockItem + .TaskBlock-BlockItem {
+  margin: 15px 0 0 0;
+}
+
+.TaskBlock_type_list_letter li {
+  list-style: none;
+}
+
+.TaskBlock_type_lists div:nth-child(1) ol {
+  margin: 0 0 0 -15px;
+}
+
+.TaskBlock_type_list_letter li:nth-child(1):before {
+  content: "\430.";
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
+}
+
+.TaskBlock_type_list_letter li:nth-child(2):before {
+  content: "\431.";
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
+}
+
+.TaskBlock_type_list_letter li:nth-child(3):before {
+  content: "\432.";
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
+}
+
+.TaskBlock_type_list_letter li:nth-child(4):before {
+  content: "\433.";
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
+}
+
+.TaskBlock_type_list_letter li:nth-child(5):before {
+  content: "\434.";
+  padding: 0 5px 0 0;
+  text-transform: uppercase;
+}
+
 #task__write {
-  margin: 15px 10px 20px -5px;
+  margin: 15px 10px 20px 5px;
   font-size: 17px;
 }
 
