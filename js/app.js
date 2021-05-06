@@ -127,10 +127,20 @@ function showTasks() {
       sixteenth,
       seventeenth,
       eighteenth,
+      nineteenth,
+      twentieth,
+      twenty_first,
+      twenty_second,
+      twenty_third,
+      twenty_fourth,
+      twenty_fifth,
+      twenty_sixth,
+      // twenty_seventh
     ];
     let random = getRandomInt(names[currentTask - 1].length);
     var read = names[currentTask - 1][random].read;
     var text = names[currentTask - 1][random].text;
+    var text_22 = names[21][random].text;
     var question = names[currentTask - 1][random].question;
     var options = names[currentTask - 1][random].options;
     var write = names[currentTask - 1][random].write;
@@ -139,7 +149,11 @@ function showTasks() {
       taskRead.classList.remove("inactive");
       taskRead.innerHTML = read;
     }
-    if (text !== undefined) {
+    if (text !== undefined && 22 < currentTask) {
+      taskText.classList.remove("inactive");
+      taskText.innerHTML = text_22;
+    }
+    if (text !== undefined && 22 >= currentTask) {
       taskText.classList.remove("inactive");
       taskText.innerHTML = text;
     }

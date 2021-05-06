@@ -347,10 +347,6 @@ li:last-child {
 #task__text {
   font-style: italic;
   font-size: 16px;
-  margin: 0 10px 20px 25px;
-  padding: 0 0 0 10px;
-  border-left: 5px solid #00b4db;
-  border-radius: 2px;
 }
 
 .Formula_img {
@@ -450,6 +446,14 @@ li:last-child {
   content: "\434.";
   padding: 0 5px 0 0;
   text-transform: uppercase;
+}
+
+.TaskBlock_type_text + .TaskBlock_type_text,
+.TaskBlock-QuoteText {
+  margin: 15px 0 0 25px;
+  padding: 0 0 0 10px;
+  border-left: 5px solid #00b4db;
+  border-radius: 2px;
 }
 
 #task__write {
