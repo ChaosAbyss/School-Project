@@ -145,6 +145,19 @@ function showTasks() {
     var options = names[currentTask - 1][random].options;
     var write = names[currentTask - 1][random].write;
 
+    taskText.addEventListener("click", () => {
+      if (taskText.classList.contains("partial")) {
+        taskText.classList.remove("partial");
+        taskText.classList.add("full");
+        return;
+      }
+      if (taskText.classList.contains("full")) {
+        taskText.classList.remove("full");
+        taskText.classList.add("partial");
+        return;
+      }
+    });
+
     if (read !== undefined) {
       taskRead.classList.remove("inactive");
       taskRead.innerHTML = read;

@@ -454,6 +454,31 @@ li:last-child {
   padding: 0 0 0 10px;
   border-left: 5px solid #00b4db;
   border-radius: 2px;
+  /* max-height: 300px; */
+}
+
+#task__text {
+  text-align: left;
+  background: transparent;
+  overflow: hidden;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1025px) {
+  #task__text:hover {
+    background: rgba(240, 240, 240, 0.8);
+  }
+}
+
+#task__text.full {
+  max-height: 100%;
+}
+
+#task__text.partial {
+  max-height: 100px;
+  box-shadow: 0 -20px 10px -10px rgba(200, 200, 200, 0.6) inset;
+  border-radius: 5px;
 }
 
 #task__write {
