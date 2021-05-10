@@ -17,8 +17,10 @@ const taskWrite = document.getElementById("task__write");
 const answer = document.getElementById("answer");
 const taskCounter = document.getElementById("task__counter");
 const total = document.getElementById("total");
+const done = document.getElementById("done");
 const input = document.getElementById("input");
 const checkButton = document.getElementById("check-button");
+var doneNum = 1;
 
 // Open a quiz from grid
 openPopupButtons.forEach((button) => {
@@ -41,7 +43,64 @@ function startQuiz(quiz) {
   overlay.classList.add("active");
   quiz.style.visibility = "visible";
   quiz.style.opacity = "1";
-  showTasks();
+  var names_math = [
+    first,
+    second,
+    third,
+    fourth,
+    fifth,
+    sixth,
+    seventh,
+    eighth,
+    ninth,
+    tenth,
+    eleventh,
+    twelfth,
+  ];
+
+  var names_rus = [
+    first,
+    second,
+    third,
+    fourth,
+    fifth,
+    sixth,
+    seventh,
+    eighth,
+    ninth,
+    tenth,
+    eleventh,
+    twelfth,
+    thirteenth,
+    fourteenth,
+    fifteenth,
+    sixteenth,
+    seventeenth,
+    eighteenth,
+    nineteenth,
+    twentieth,
+    twenty_first,
+    twenty_second,
+    twenty_third,
+    twenty_fourth,
+    twenty_fifth,
+    twenty_sixth,
+  ];
+
+  if (document.getElementsByClassName("open-button").length == 19) {
+    var sequence = shuffle(
+      Array.from(Array(names_math[currentTask - 1].length).keys())
+    );
+    console.log(sequence);
+    showTasks(sequence, names_math);
+  }
+  if (document.getElementsByClassName("open-button").length == 27) {
+    var sequence = shuffle(
+      Array.from(Array(names_rus[currentTask - 1].length).keys())
+    );
+    console.log(sequence);
+    showTasks(sequence, names_rus);
+  }
 }
 
 function finishQuiz(quiz) {
@@ -76,26 +135,11 @@ function finishQuiz(quiz) {
   }, 300);
 }
 
-function showTasks() {
+function showTasks(sequence, names) {
   if (document.getElementsByClassName("open-button").length == 19) {
-    var names = [
-      first,
-      second,
-      third,
-      fourth,
-      fifth,
-      sixth,
-      seventh,
-      eighth,
-      ninth,
-      tenth,
-      eleventh,
-      twelfth,
-    ];
-    let random = getRandomInt(names[currentTask - 1].length);
-    var description = names[currentTask - 1][random].text;
-    var image = names[currentTask - 1][random].image;
-    var question = names[currentTask - 1][random].question;
+    var description = names[currentTask - 1][sequence[doneNum - 1]].text;
+    var image = names[currentTask - 1][sequence[doneNum - 1]].image;
+    var question = names[currentTask - 1][sequence[doneNum - 1]].question;
 
     if (description !== "") {
       taskDescription.classList.remove("inactive");
@@ -114,53 +158,23 @@ function showTasks() {
     checkButton.classList.remove("inactive");
     taskCounter.classList.remove("inactive");
     total.innerHTML = names[currentTask - 1].length;
+    done.innerHTML = doneNum;
 
-    checkAnswer(names, currentTask, random);
+    checkAnswer(names, currentTask, sequence);
   }
 
   if (document.getElementsByClassName("open-button").length == 27) {
-    var names = [
-      first,
-      second,
-      third,
-      fourth,
-      fifth,
-      sixth,
-      seventh,
-      eighth,
-      ninth,
-      tenth,
-      eleventh,
-      twelfth,
-      thirteenth,
-      fourteenth,
-      fifteenth,
-      sixteenth,
-      seventeenth,
-      eighteenth,
-      nineteenth,
-      twentieth,
-      twenty_first,
-      twenty_second,
-      twenty_third,
-      twenty_fourth,
-      twenty_fifth,
-      twenty_sixth,
-      // twenty_seventh
-    ];
-    let random = getRandomInt(names[currentTask - 1].length);
-    var read = names[currentTask - 1][random].read;
-    console.log(read);
-    var text = names[currentTask - 1][random].text;
-    var text_22 = names[21][random].text;
-    var question = names[currentTask - 1][random].question;
-    var options = names[currentTask - 1][random].options;
-    var write = names[currentTask - 1][random].write;
+    var read = names[currentTask - 1][sequence[doneNum - 1]].read;
+    var text = names[currentTask - 1][sequence[doneNum - 1]].text;
+    var text_22 = names[21][sequence[doneNum - 1]].text;
+    var question = names[currentTask - 1][sequence[doneNum - 1]].question;
+    var options = names[currentTask - 1][sequence[doneNum - 1]].options;
+    var write = names[currentTask - 1][sequence[doneNum - 1]].write;
     if (currentTask >= 22) {
       taskText.classList.add("collapse", "partial");
       taskText.addEventListener("click", switchMode);
     }
-    console.log(names[currentTask - 1][random].answer);
+    console.log(names[currentTask - 1][sequence[doneNum - 1]].answer);
 
     if (read !== "") {
       taskRead.classList.remove("inactive");
@@ -191,9 +205,93 @@ function showTasks() {
     checkButton.classList.remove("inactive");
     taskCounter.classList.remove("inactive");
     total.innerHTML = names[currentTask - 1].length;
+    done.innerHTML = doneNum;
 
-    checkAnswer(names, currentTask, random);
+    checkAnswer(names, currentTask, sequence);
   }
+}
+
+function nextTask(sequence, names) {
+  input.value = "";
+  input.classList.remove("right") || input.classList.remove("wrong");
+  if (document.getElementsByClassName("open-button").length == 19) {
+    taskDescription.style.opacity = "0";
+    taskImage.style.opacity = "0";
+    taskQuestion.style.opacity = "0";
+    answer.style.opacity = "0";
+    taskCounter.style.opacity = "0";
+  }
+  if (document.getElementsByClassName("open-button").length == 27) {
+    taskRead.style.opacity = "0";
+    taskText.style.opacity = "0";
+    taskQuestion.style.opacity = "0";
+    taskOptions.style.opacity = "0";
+    taskWrite.style.opacity = "0";
+    answer.style.opacity = "0";
+    taskCounter.style.opacity = "0";
+    taskText.classList.remove("full");
+    taskText.removeEventListener("click", switchMode);
+  }
+
+  setTimeout(() => {
+    console.log(sequence);
+    showTasks(sequence, names);
+    if (document.getElementsByClassName("open-button").length == 19) {
+      taskDescription.style.opacity = "1";
+      taskImage.style.opacity = "1";
+      taskQuestion.style.opacity = "1";
+      answer.style.opacity = "1";
+      taskCounter.style.opacity = "1";
+    }
+    if (document.getElementsByClassName("open-button").length == 27) {
+      taskRead.style.opacity = "1";
+      taskText.style.opacity = "1";
+      taskQuestion.style.opacity = "1";
+      taskOptions.style.opacity = "1";
+      taskWrite.style.opacity = "1";
+      answer.style.opacity = "1";
+      taskCounter.style.opacity = "1";
+    }
+  }, 300);
+}
+
+function checkAnswer(names, currentTask, sequence) {
+  checkButton.addEventListener("click", () => {
+    if (
+      input.value !== "" &&
+      document.getElementsByClassName("open-button").length == 19
+    ) {
+      var realAnswer = names[currentTask - 1][sequence[doneNum - 1]].answer;
+      if (input.value == realAnswer) {
+        input.className = "";
+        input.classList.add("right");
+        doneNum += 1;
+        setTimeout(() => {
+          nextTask(sequence, names);
+        }, 800);
+      } else {
+        input.className = "";
+        input.classList.add("wrong");
+      }
+    }
+    if (
+      input.value !== "" &&
+      document.getElementsByClassName("open-button").length == 27
+    ) {
+      var realAnswers = names[currentTask - 1][sequence[doneNum - 1]].answer;
+      if (realAnswers.some((i) => i == input.value)) {
+        input.className = "";
+        input.classList.add("right");
+        doneNum += 1;
+        setTimeout(() => {
+          nextTask(sequence, names);
+        }, 800);
+      } else {
+        input.className = "";
+        input.classList.add("wrong");
+      }
+    }
+  });
 }
 
 function switchMode() {
@@ -208,37 +306,6 @@ function switchMode() {
   }
 }
 
-function checkAnswer(names, currentTask, random) {
-  checkButton.addEventListener("click", () => {
-    if (
-      input.value !== "" &&
-      document.getElementsByClassName("open-button").length == 19
-    ) {
-      var realAnswer = names[currentTask - 1][random].answer;
-      if (input.value == realAnswer) {
-        input.className = "";
-        input.classList.add("right");
-      } else {
-        input.className = "";
-        input.classList.add("wrong");
-      }
-    }
-    if (
-      input.value !== "" &&
-      document.getElementsByClassName("open-button").length == 27
-    ) {
-      var realAnswers = names[currentTask - 1][random].answer;
-      if (realAnswers.some((i) => i == input.value)) {
-        input.className = "";
-        input.classList.add("right");
-      } else {
-        input.className = "";
-        input.classList.add("wrong");
-      }
-    }
-  });
-}
-
 function replyClick(clicked_id) {
   const quizTitle = document.getElementById("quiz__title");
   quizTitle.innerHTML = clicked_id + " задание";
@@ -248,6 +315,15 @@ function getId(clicked_id) {
   globalThis.currentTask = clicked_id;
 }
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+function shuffle(array) {
+  var i = array.length,
+    j = 0,
+    temp;
+  while (i--) {
+    j = Math.floor(Math.random() * (i + 1));
+    temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
 }

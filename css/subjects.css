@@ -338,15 +338,18 @@ li:last-child {
 #task__read {
   margin: 10px 10px 5px 5px;
   font-size: 17px;
+  transition: opacity 0.3s;
 }
 
 #task__description {
   margin: 0 10px 20px 10px;
+  transition: opacity 0.3s;
 }
 
 #task__text {
   font-style: italic;
   font-size: 16px;
+  transition: opacity 0.3s;
 }
 
 .Formula_img {
@@ -374,7 +377,7 @@ li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin: 10px auto; */
+  transition: opacity 0.3s;
 }
 
 #task__image > img {
@@ -391,11 +394,13 @@ li:last-child {
 #task__question {
   margin: 10px 10px 20px 5px;
   font-size: 17px;
+  transition: opacity 0.3s;
 }
 
 #task__options {
   font-size: 16px;
   margin: 0 0 10px 40px;
+  transition: opacity 0.3s;
 }
 
 .TaskBlock_type_list_plain > li {
@@ -459,6 +464,7 @@ li:last-child {
 #task__text {
   text-align: left;
   background: transparent;
+  transition: opacity 0.3s;
 }
 
 .collapse {
@@ -479,11 +485,13 @@ li:last-child {
 #task__write {
   margin: 15px 10px 20px 5px;
   font-size: 17px;
+  transition: opacity 0.3s;
 }
 
 .answer {
   display: grid;
   margin: 10px 0;
+  transition: opacity 0.3s;
 }
 
 @media (min-width: 670px) {
@@ -577,4 +585,5 @@ li:last-child {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  transition: opacity 0.3s;
 }
