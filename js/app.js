@@ -52,17 +52,28 @@ function finishQuiz(quiz) {
   overlay.classList.remove("active");
   setTimeout(() => {
     input.value = "";
-    input.classList.remove("right") | input.classList.remove("wrong");
+    input.classList.remove("right") || input.classList.remove("wrong");
+    if (document.getElementsByClassName("open-button").length == 19) {
+      taskDescription.classList.add("inactive");
+      taskImage.classList.add("inactive");
+      taskQuestion.classList.add("inactive");
+    }
+    if (document.getElementsByClassName("open-button").length == 27) {
+      taskRead.classList.add("inactive");
+      taskText.classList.add("inactive");
+      taskQuestion.classList.add("inactive");
+      taskOptions.classList.add("inactive");
+      taskWrite.classList.add("inactive");
+    }
+    if (
+      document.getElementsByClassName("open-button").length == 27 &&
+      currentTask >= 22
+    ) {
+      taskText.classList.remove("partial") || taskText.classList.remove("full");
+      taskText.classList.remove("collapse");
+      taskText.removeEventListener("click", switchMode);
+    }
   }, 300);
-}
-
-function replyClick(clicked_id) {
-  const quizTitle = document.getElementById("quiz__title");
-  quizTitle.innerHTML = clicked_id + " задание";
-}
-
-function getId(clicked_id) {
-  globalThis.currentTask = clicked_id;
 }
 
 function showTasks() {
@@ -86,15 +97,15 @@ function showTasks() {
     var image = names[currentTask - 1][random].image;
     var question = names[currentTask - 1][random].question;
 
-    if (description !== undefined) {
+    if (description !== "") {
       taskDescription.classList.remove("inactive");
       taskDescription.innerHTML = description;
     }
-    if (image !== undefined) {
+    if (image !== "") {
       taskImage.classList.remove("inactive");
       taskImage.innerHTML = image;
     }
-    if (question !== undefined) {
+    if (question !== "") {
       taskQuestion.classList.remove("inactive");
       taskQuestion.innerHTML = question;
     }
@@ -139,46 +150,39 @@ function showTasks() {
     ];
     let random = getRandomInt(names[currentTask - 1].length);
     var read = names[currentTask - 1][random].read;
+    console.log(read);
     var text = names[currentTask - 1][random].text;
     var text_22 = names[21][random].text;
     var question = names[currentTask - 1][random].question;
     var options = names[currentTask - 1][random].options;
     var write = names[currentTask - 1][random].write;
+    if (currentTask >= 22) {
+      taskText.classList.add("collapse", "partial");
+      taskText.addEventListener("click", switchMode);
+    }
+    console.log(names[currentTask - 1][random].answer);
 
-    taskText.addEventListener("click", () => {
-      if (taskText.classList.contains("partial")) {
-        taskText.classList.remove("partial");
-        taskText.classList.add("full");
-        return;
-      }
-      if (taskText.classList.contains("full")) {
-        taskText.classList.remove("full");
-        taskText.classList.add("partial");
-        return;
-      }
-    });
-
-    if (read !== undefined) {
+    if (read !== "") {
       taskRead.classList.remove("inactive");
       taskRead.innerHTML = read;
     }
-    if (text !== undefined && 22 < currentTask) {
-      taskText.classList.remove("inactive");
-      taskText.innerHTML = text_22;
-    }
-    if (text !== undefined && 22 >= currentTask) {
+    if (text !== "" && currentTask < 22) {
       taskText.classList.remove("inactive");
       taskText.innerHTML = text;
     }
-    if (question !== undefined) {
+    if (currentTask >= 22) {
+      taskText.classList.remove("inactive");
+      taskText.innerHTML = text_22;
+    }
+    if (question !== "") {
       taskQuestion.classList.remove("inactive");
       taskQuestion.innerHTML = question;
     }
-    if (options !== undefined) {
+    if (options !== "") {
       taskOptions.classList.remove("inactive");
       taskOptions.innerHTML = options;
     }
-    if (write !== undefined) {
+    if (write !== "") {
       taskWrite.classList.remove("inactive");
       taskWrite.innerHTML = write;
     }
@@ -189,6 +193,18 @@ function showTasks() {
     total.innerHTML = names[currentTask - 1].length;
 
     checkAnswer(names, currentTask, random);
+  }
+}
+
+function switchMode() {
+  if (taskText.classList.contains("partial")) {
+    taskText.classList.remove("partial");
+    taskText.classList.add("full");
+    return;
+  } else {
+    taskText.classList.remove("full");
+    taskText.classList.add("partial");
+    return;
   }
 }
 
@@ -221,6 +237,15 @@ function checkAnswer(names, currentTask, random) {
       }
     }
   });
+}
+
+function replyClick(clicked_id) {
+  const quizTitle = document.getElementById("quiz__title");
+  quizTitle.innerHTML = clicked_id + " задание";
+}
+
+function getId(clicked_id) {
+  globalThis.currentTask = clicked_id;
 }
 
 function getRandomInt(max) {

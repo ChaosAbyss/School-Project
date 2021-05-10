@@ -336,7 +336,7 @@ li:last-child {
 }
 
 #task__read {
-  margin: 10px 10px 20px 5px;
+  margin: 10px 10px 5px 5px;
   font-size: 17px;
 }
 
@@ -454,31 +454,26 @@ li:last-child {
   padding: 0 0 0 10px;
   border-left: 5px solid #00b4db;
   border-radius: 2px;
-  /* max-height: 300px; */
 }
 
 #task__text {
   text-align: left;
   background: transparent;
+}
+
+.collapse {
   overflow: hidden;
-  transition: background 0.2s;
-  cursor: pointer;
 }
 
-@media only screen and (min-width: 1025px) {
-  #task__text:hover {
-    background: rgba(240, 240, 240, 0.8);
-  }
-}
-
-#task__text.full {
+.collapse.full {
   max-height: 100%;
+  border-radius: 15px;
 }
 
-#task__text.partial {
+.collapse.partial {
   max-height: 100px;
   box-shadow: 0 -20px 10px -10px rgba(200, 200, 200, 0.6) inset;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 #task__write {
@@ -488,6 +483,7 @@ li:last-child {
 
 .answer {
   display: grid;
+  margin: 10px 0;
 }
 
 @media (min-width: 670px) {
@@ -527,11 +523,11 @@ li:last-child {
 }
 
 #input.right {
-  border-color: #5ef00a;
+  background: rgba(100, 230, 30, 0.6);
 }
 
 #input.wrong {
-  border-color: #f00a00;
+  background: rgba(255, 10, 10, 0.6);
 }
 
 #check-button {
