@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.9)  14 APR 2021 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.9)  21 MAY 2021 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,7 +922,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthfirst=\dimen276
 )
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-01.
+00.
 
 (/usr/share/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
@@ -937,27 +937,27 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count303
 \l__pdf_internal_box=\box81
 ) (./paper.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Info: Redefining \th on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Info: Redefining \th on input line 104.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1020,7 +1020,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 104.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1032,9 +1032,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
 
 (./paper.out) (./paper.out)
 \@outlinefile=\write4
@@ -1042,7 +1042,7 @@ LaTeX Info: Redefining \nameref on input line 105.
 File: ../img/title_page_school_logo.jpg Graphic file (type jpg)
 <use ../img/title_page_school_logo.jpg>
 Package pdftex.def Info: ../img/title_page_school_logo.jpg  used on input line 
-110.
+109.
 (pdftex.def)             Requested size: 469.75386pt x 123.1872pt.
  [1
 
@@ -1056,29 +1056,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 \newpage
+l.133 \newpage
                [1]
-Underfull \hbox (badness 10000) in paragraph at lines 139--155
+Underfull \hbox (badness 10000) in paragraph at lines 138--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 156--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--178
+Underfull \hbox (badness 10000) in paragraph at lines 170--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--186
+Underfull \hbox (badness 10000) in paragraph at lines 178--184
 
  []
 
@@ -1107,18 +1107,147 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--293
 
  []
 
-[4] (./bibliography.tex) [5] (./paper.aux)
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 312--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--331
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 392--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--405
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 418--426
+
+ []
+
+<./img/tiles.png, id=112, 657.95813pt x 679.78969pt>
+File: ./img/tiles.png Graphic file (type png)
+<use ./img/tiles.png>
+Package pdftex.def Info: ./img/tiles.png  used on input line 439.
+(pdftex.def)             Requested size: 212.93028pt x 220.0pt.
+<./img/tileHover.png, id=113, 652.68843pt x 654.94687pt>
+File: ./img/tileHover.png Graphic file (type png)
+<use ./img/tileHover.png>
+Package pdftex.def Info: ./img/tileHover.png  used on input line 444.
+(pdftex.def)             Requested size: 219.24207pt x 220.0pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 437--447
+[]$[]$ $[]$ 
+ []
+
+[7 <./img/tiles.png (PNG copy)> <./img/tileHover.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 458--467
+
+ []
+
+<./img/math.png, id=120, 657.95813pt x 678.28406pt>
+File: ./img/math.png Graphic file (type png)
+<use ./img/math.png>
+Package pdftex.def Info: ./img/math.png  used on input line 475.
+(pdftex.def)             Requested size: 213.40215pt x 220.0pt.
+<./img/russian.png, id=121, 657.2053pt x 679.03688pt>
+File: ./img/russian.png Graphic file (type png)
+<use ./img/russian.png>
+Package pdftex.def Info: ./img/russian.png  used on input line 480.
+(pdftex.def)             Requested size: 212.92732pt x 220.0pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 473--483
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--489
+
+ []
+
+<./img/tooltip.png, id=122, 590.95781pt x 125.71968pt>
+File: ./img/tooltip.png Graphic file (type png)
+<use ./img/tooltip.png>
+Package pdftex.def Info: ./img/tooltip.png  used on input line 497.
+(pdftex.def)             Requested size: 329.04048pt x 70.0pt.
+[8 <./img/math.png (PNG copy)> <./img/russian.png (PNG copy)> <./img/tooltip.pn
+g (PNG copy)>]
+<./img/quizFrame.png, id=130, 642.4pt x 214.8025pt>
+File: ./img/quizFrame.png Graphic file (type png)
+<use ./img/quizFrame.png>
+Package pdftex.def Info: ./img/quizFrame.png  used on input line 518.
+(pdftex.def)             Requested size: 299.0658pt x 100.0pt.
+<./img/1Example.png, id=131, 642.4pt x 588.1975pt>
+File: ./img/1Example.png Graphic file (type png)
+<use ./img/1Example.png>
+Package pdftex.def Info: ./img/1Example.png  used on input line 536.
+(pdftex.def)             Requested size: 185.66388pt x 170.0pt.
+<./img/2Example.png, id=132, 642.4pt x 491.8375pt>
+File: ./img/2Example.png Graphic file (type png)
+<use ./img/2Example.png>
+Package pdftex.def Info: ./img/2Example.png  used on input line 541.
+(pdftex.def)             Requested size: 208.97357pt x 160.0pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 534--544
+[]$[]$ $[]$ 
+ []
+
+<./img/1Sequence.png, id=133, 642.4pt x 578.16pt>
+File: ./img/1Sequence.png Graphic file (type png)
+<use ./img/1Sequence.png>
+Package pdftex.def Info: ./img/1Sequence.png  used on input line 555.
+(pdftex.def)             Requested size: 199.99474pt x 180.0pt.
+<./img/2Sequence.png, id=134, 642.4pt x 570.13pt>
+File: ./img/2Sequence.png Graphic file (type png)
+<use ./img/2Sequence.png>
+Package pdftex.def Info: ./img/2Sequence.png  used on input line 560.
+(pdftex.def)             Requested size: 214.08052pt x 190.0pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 553--563
+[]$[]$ $[]$ 
+ []
+
+[9 <./img/quizFrame.png> <./img/1Example.png> <./img/2Example.png>]
+<./img/correctAnswer.png, id=149, 642.4pt x 414.54875pt>
+File: ./img/correctAnswer.png Graphic file (type png)
+<use ./img/correctAnswer.png>
+Package pdftex.def Info: ./img/correctAnswer.png  used on input line 576.
+(pdftex.def)             Requested size: 216.94278pt x 140.0pt.
+<./img/incorrectAnswer.png, id=150, 642.4pt x 421.575pt>
+File: ./img/incorrectAnswer.png Graphic file (type png)
+<use ./img/incorrectAnswer.png>
+Package pdftex.def Info: ./img/incorrectAnswer.png  used on input line 581.
+(pdftex.def)             Requested size: 213.33556pt x 140.0pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 574--584
+[]$[]$ $[]$ 
+ []
+
+[10 <./img/1Sequence.png> <./img/2Sequence.png> <./img/correctAnswer.png> <./im
+g/incorrectAnswer.png>] (./bibliography.tex) [11] (./paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 230F303D3C5CCD43E38B26B88513E6CC;2197.
+(rerunfilecheck)             Checksum: E00093A991E9EEAEB671A6D31AD49B54;2528.
  ) 
 Here is how much of TeX's memory you used:
- 26083 strings out of 479383
- 489545 string characters out of 5875831
- 819384 words of memory out of 5000000
- 42733 multiletter control sequences out of 15000+600000
- 413740 words of font info for 48 fonts, out of 8000000 for 9000
+ 26203 strings out of 479383
+ 491730 string characters out of 5875831
+ 820119 words of memory out of 5000000
+ 42813 multiletter control sequences out of 15000+600000
+ 414546 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,6n,85p,611b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,9n,85p,787b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/
 texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/fon
 ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1126,11 +1255,12 @@ ts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public
 728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/cm-super/sfti1200.pfb>
-Output written on paper.pdf (6 pages, 300263 bytes).
+blic/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
+fti1200.pfb>
+Output written on paper.pdf (12 pages, 1445439 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
