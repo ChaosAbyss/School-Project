@@ -3,734 +3,734 @@ const tenth = [
     number: 1,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для определения эффективной температуры звёзд используют закон Стефана—Больцмана,, согласно которому </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:10.648ex" src="https://yastatic.net/s3/edu/tex/f69179f299d39338f78ef45b90f97bd3.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg"><span> — мощность излучения звезды (в ваттах), </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:13.651ex" src="https://yastatic.net/s3/edu/tex/fd1d8be181b95ba979a970788d1ad877.svg"><span> </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:7.68ex" src="https://yastatic.net/s3/edu/tex/55635de7ba8807b85bba6ea2816e9bf4.svg"><span> — постоянная, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.581ex" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg"><span> — площадь поверхности звезды (в квадратных метрах), а </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.557ex" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg"><span> — температура (в кельвинах). Известно, что площадь поверхности некоторой звезды равна </span><img class="Formula Formula_img" style="vertical-align:-1.794ex;height:5.102ex;width:9.06ex" src="https://yastatic.net/s3/edu/tex/161c437a5c7b0aa9381e156bf4b627fc.svg"><span> м</span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/529157f1ae1a06677e233354fb735694.svg"><span> а мощность её излучения равна </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:10.355ex" src="https://yastatic.net/s3/edu/tex/5c28b4576d2d528dea41fd21ecb18977.svg"><span> Вт.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите температуру этой звезды в кельвинах.</span></span></div>',
-    answer: '4000',
+    answer: "4000",
   },
 
   {
     number: 2,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для определения эффективной температуры звёзд используют закон Стефана–Больцмана, согласно которому </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:10.648ex" src="https://yastatic.net/s3/edu/tex/f69179f299d39338f78ef45b90f97bd3.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg"><span> — мощность излучения звезды (в ваттах), </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:13.651ex" src="https://yastatic.net/s3/edu/tex/801896cb1831542f11b95145020915b9.svg"><span> </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:7.68ex" src="https://yastatic.net/s3/edu/tex/55635de7ba8807b85bba6ea2816e9bf4.svg"><span> — постоянная, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.581ex" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg"><span> — площадь поверхности звезды (в квадратных метрах), а </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.557ex" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg"><span> — температура (в кельвинах). Известно, что площадь поверхности некоторой звезды равна </span><img class="Formula Formula_img" style="vertical-align:-1.794ex;height:5.102ex;width:7.897ex" src="https://yastatic.net/s3/edu/tex/4c31b99dc5eccd0f6ed6c87698f84ef9.svg"><span> м</span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/529157f1ae1a06677e233354fb735694.svg"><span> а мощность её излучения равна </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:10.355ex" src="https://yastatic.net/s3/edu/tex/8cfa8703bbb8f5debcc2152651b88575.svg"><span> Вт.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите температуру этой звезды в кельвинах.</span></span></div>',
-    answer: '10000',
+    answer: "10000",
   },
 
   {
     number: 3,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Локатор батискафа, равномерно погружающегося вертикально вниз, испускает ультразвуковые импульсы частотой </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:3.487ex" src="https://yastatic.net/s3/edu/tex/5c572eca050594c7bc3c36e7e8ab9550.svg"><span> МГц. Скорость погружения батискафа </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.176ex" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg"><span> вычисляется по формуле </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:14.538ex" src="https://yastatic.net/s3/edu/tex/af7acf93d30a96db22994b93ec9601a3.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:8.497ex" src="https://yastatic.net/s3/edu/tex/c65551a3454f082a42f3ca66aa7685a2.svg"><span> м/с — скорость звука в воде, </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:2.344ex" src="https://yastatic.net/s3/edu/tex/78155d2ec4b025a5ac903d6f8611756c.svg"><span> — частота испускаемых импульсов, </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:1.43ex" src="https://yastatic.net/s3/edu/tex/8fa14cdd754f91cc6554c9e71929cce7.svg"><span> — частота отражённого от дна сигнала, регистрируемая приёмником (в МГц). </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите частоту отражённого сигнала в МГц, если скорость погружения батискафа равна </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/aab3238922bcc25a6f606eb525ffdc56.svg"><span> м/с.</span></span></div>',
-    answer: '757',
+    answer: "757",
   },
 
   {
     number: 4,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Локатор батискафа, равномерно погружающегося вертикально вниз, испускает ультразвуковые импульсы частотой </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:3.487ex" src="https://yastatic.net/s3/edu/tex/b534ba68236ba543ae44b22bd110a1d6.svg"><span> МГц. Скорость погружения батискафа </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.07ex" src="https://yastatic.net/s3/edu/tex/5470b9993b5d776db89f25ac7cfff3a1.svg"><span> вычисляется по формуле </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:14.431ex" src="https://yastatic.net/s3/edu/tex/90d7951bcb51297609c2b21b3a24360a.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:8.497ex" src="https://yastatic.net/s3/edu/tex/c65551a3454f082a42f3ca66aa7685a2.svg"><span> м/с — скоростьзвука в воде, </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:2.344ex" src="https://yastatic.net/s3/edu/tex/78155d2ec4b025a5ac903d6f8611756c.svg"><span> — частота испускаемых импульсов, </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:1.43ex" src="https://yastatic.net/s3/edu/tex/8fa14cdd754f91cc6554c9e71929cce7.svg"><span> — частота отражённогоот дна сигнала, регистрируемая приёмником (в МГц). </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите частоту отражённого сигнала в МГц, если скорость погружения батискафа равна </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/c20ad4d76fe97759aa27a0c99bff6710.svg"><span> м/с.</span></span></div>',
-    answer: '504',
+    answer: "504",
   },
 
   {
     number: 5,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль разгоняется на прямолинейном участке шоссе с постоянным ускорением </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.167ex" src="https://yastatic.net/s3/edu/tex/0cc175b9c0f1b6a831c399e269772661.svg"><span> км/ч</span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.624ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/46fe3233e21362265a6e6afd8eabfffa.svg"><span> Скорость </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.07ex" src="https://yastatic.net/s3/edu/tex/5470b9993b5d776db89f25ac7cfff3a1.svg"><span> вычисляется по формуле </span><img class="Formula Formula_img" style="vertical-align:-.968ex;height:3.45ex;width:9.76ex" src="https://yastatic.net/s3/edu/tex/41cd9a13ebc606f508e3485b5b8ab05d.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:.74ex" src="https://yastatic.net/s3/edu/tex/2db95e8e1a9267b7a1188556b2013b33.svg"><span> — пройденный автомобилем путь.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите ускорение, с которым должен двигатьсяавтомобиль, чтобы, проехав </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.162ex" src="https://yastatic.net/s3/edu/tex/c4ca4238a0b923820dcc509a6f75849b.svg"><span> километр, приобрести скорость </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/7cbbc409ec990f19c78c75bd1e06f215.svg"><span> км/ч.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в км/ч</span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.624ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/46fe3233e21362265a6e6afd8eabfffa.svg"><span></span></span></div>',
-    answer: '2450',
+    answer: "2450",
   },
 
   {
     number: 6,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль разгоняется на прямолинейном участке шоссе с постоянным ускорением </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.167ex" src="https://yastatic.net/s3/edu/tex/0cc175b9c0f1b6a831c399e269772661.svg"><span> км/ч</span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.624ex;width:1.636ex" src="https://yastatic.net/s3/edu/tex/82db2e7360625eb559418c899863e5fe.svg"><span> Скорость </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.176ex" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg"><span> вычисляется по формуле </span><img class="Formula Formula_img" style="vertical-align:-.968ex;height:3.45ex;width:9.866ex" src="https://yastatic.net/s3/edu/tex/80c1a6363562f6da06fed56fc8c3ea5d.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:.74ex" src="https://yastatic.net/s3/edu/tex/2db95e8e1a9267b7a1188556b2013b33.svg"><span> — пройденный автомобилем путь.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите ускорение, с которым должен двигатьсяавтомобиль, чтобы, проехав </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:3.294ex" src="https://yastatic.net/s3/edu/tex/e355e4dab36951a7a989d4d54d02e01c.svg"><span> километра, приобрести скорость </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/8613985ec49eb8f757ae6439e879bb2a.svg"><span> км/ч.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в км/ч</span><img class="Formula Formula_img" style="vertical-align:-.142ex;height:2.487ex;width:1.054ex" src="https://yastatic.net/s3/edu/tex/02850d6a647bc6cdb7f44baeb1f90089.svg"><span>.</span></span></div>',
-    answer: '10125',
+    answer: "10125",
   },
 
   {
     number: 7,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В ходе распада радиоактивного изотопа его масса уменьшается по закону</span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:3.175ex;width:13.652ex" src="https://yastatic.net/s3/edu/tex/6ed3948bae3cbf727f195506412ac6fc.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:1.799ex;width:2.704ex" src="https://yastatic.net/s3/edu/tex/fed1e4775925bd3f7af0c5d8fc47e4e6.svg"><span> — начальная масса изотопа, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.799ex;width:.728ex" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg"><span> — время, прошедшее отначального момента, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.557ex" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg"><span> — период полураспада. В начальный момент временимасса изотопа </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/98f13708210194c475687be6106a3b84.svg"><span> мг. Период его полураспада составляет </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/d3d9446802a44259755d38e6d163e820.svg"><span> мин.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите,через сколько минут масса изотопа будет равна </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.162ex" src="https://yastatic.net/s3/edu/tex/e4da3b7fbbce2345d7772b0674a318d5.svg"><span> мг.</span></span></div>',
-    answer: '20',
+    answer: "20",
   },
 
   {
     number: 8,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В ходе распада радиоактивного изотопа его масса уменьшается по закону </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:3.175ex;width:13.652ex" src="https://yastatic.net/s3/edu/tex/6ed3948bae3cbf727f195506412ac6fc.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:1.799ex;width:2.704ex" src="https://yastatic.net/s3/edu/tex/fed1e4775925bd3f7af0c5d8fc47e4e6.svg"><span> — начальная масса изотопа, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.799ex;width:.728ex" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg"><span> — время, прошедшее от начального момента, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.557ex" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg"><span> — период полураспада. В начальный момент времени масса изотопа </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/f033ab37c30201f73f142449d037028d.svg"><span> мг. Период его полураспада составляет </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/9bf31c7ff062936a96d3c8bd1f8f2ff3.svg"><span> мин.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, через сколько минут масса изотопа будет равна </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/d3d9446802a44259755d38e6d163e820.svg"><span> мг.</span></span></div>',
-    answer: '45',
+    answer: "45",
   },
 
   {
     number: 9,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для обогрева помещения, температура в котором поддерживается на уровне </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:10.623ex" src="https://yastatic.net/s3/edu/tex/efea625e3fde166bb11bacfd00275a67.svg"><span> через радиатор отопления пропускают горячую воду. Расход проходящей через трубу радиатора воды </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:7.826ex" src="https://yastatic.net/s3/edu/tex/a695c1ee7b2a82d0ad59fb15c780a3a8.svg"><span> кг/с. Проходя по трубе расстояние </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:1.799ex;width:1.86ex" src="https://yastatic.net/s3/edu/tex/0e503e6ba8df74a61723be29415bcdc5.svg"><span> вода охлаждается от начальной температуры </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:9.958ex" src="https://yastatic.net/s3/edu/tex/68902e5018587c36eb6bb27638378779.svg"><span> до температуры </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:2.139ex" src="https://yastatic.net/s3/edu/tex/c5933572239739dc5232c0eda503d0ff.svg"><span> причём </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:21.962ex" src="https://yastatic.net/s3/edu/tex/c5b473c6d14017702cca7ce1befaa0ca.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:8.497ex" src="https://yastatic.net/s3/edu/tex/541759168d54c03c41c457ae816fb8ef.svg"><span> </span><img class="Formula Formula_img" style="vertical-align:-1.794ex;height:5.102ex;width:7.08ex" src="https://yastatic.net/s3/edu/tex/c02e9e239fb97f30917191b0f184959b.svg"><span> — теплоёмкость воды, </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:6.272ex" src="https://yastatic.net/s3/edu/tex/eb9c2d1426edf90bcdac8770349b44d4.svg"><span> </span><img class="Formula Formula_img" style="vertical-align:-1.794ex;height:5.102ex;width:6.428ex" src="https://yastatic.net/s3/edu/tex/a90f5f165e9f3cd61ab2677254f1b68f.svg"><span> — коэффициент теплообмена, а </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:7.406ex" src="https://yastatic.net/s3/edu/tex/68990c1d633f4c0f4146cf5127cb3999.svg"><span> — постоянная.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, докакой температуры (в градусах Цельсия) охладится вода, если длина трубырадиатора равна </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/fbd7939d674997cdb4692d34de8633c4.svg"><span> м.</span></span></div>',
-    answer: '33',
+    answer: "33",
   },
 
   {
     number: 10,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для обогрева помещения, температура в котором поддерживается на уровне </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:10.623ex" src="https://yastatic.net/s3/edu/tex/874b79c9c5725b870e647ab4f393b3ca.svg"><span> через радиатор отопления пропускают горячую воду. Расход проходящей через трубу радиатора воды </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:7.826ex" src="https://yastatic.net/s3/edu/tex/d25a9c747ce43adc691e40cb33810d21.svg"><span> кг/с. Проходя по трубе расстояние </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:1.799ex;width:1.86ex" src="https://yastatic.net/s3/edu/tex/0e503e6ba8df74a61723be29415bcdc5.svg"><span> вода охлаждается от начальной температуры </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:9.958ex" src="https://yastatic.net/s3/edu/tex/3b5e39c816a86220f3d74274cbac5d85.svg"><span> до температуры </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:2.139ex" src="https://yastatic.net/s3/edu/tex/c5933572239739dc5232c0eda503d0ff.svg"><span> причём </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:21.962ex" src="https://yastatic.net/s3/edu/tex/29203b5bd57a382a7a6c6bbd6decf5b1.svg"><span> где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:8.497ex" src="https://yastatic.net/s3/edu/tex/c4eb62bef73565b203d73c4e12ba1ccb.svg"><span> </span><img class="Formula Formula_img" style="vertical-align:-1.794ex;height:5.102ex;width:7.08ex" src="https://yastatic.net/s3/edu/tex/092a8749d957bcb659ae0d92aeef8671.svg"><span> — теплоёмкость воды,</span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:6.272ex" src="https://yastatic.net/s3/edu/tex/d6d472455a14a2bc1ed20e3eca3aa000.svg"><span> </span><img class="Formula Formula_img" style="vertical-align:-1.794ex;height:5.102ex;width:6.428ex" src="https://yastatic.net/s3/edu/tex/e157d5c16af9da023d48d55b31e62fb7.svg"><span> — коэффициент теплообмена, а </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:7.406ex" src="https://yastatic.net/s3/edu/tex/728ccfa129439960ce2771d7acbd1878.svg"><span> — постоянная. </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, докакой температуры (в градусах Цельсия) охладится вода, если длина трубырадиатора равна </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:3.487ex" src="https://yastatic.net/s3/edu/tex/7f1de29e6da19d22b51c68001e7e0e54.svg"><span> м.</span></span></div>',
-    answer: '25',
+    answer: "25",
   },
 
   {
     number: 11,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Два тела, массой </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:5.695ex" src="https://yastatic.net/s3/edu/tex/9db69d5e593037ce789f9befbb30b353.svg"><span> кг каждое движутся с одинаковой скоростью </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:6.277ex" src="https://yastatic.net/s3/edu/tex/085592d42f0b2ec302cae8a410164df8.svg"><span> м/с под углом </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.392ex" src="https://yastatic.net/s3/edu/tex/4b665bcadbe886cbf7faf638e11c3887.svg"><span> друг к другу. Энергия (в джоулях), выделяющаяся приих абсолютно неупругом соударении, вычисляется по формуле </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:14.826ex" src="https://yastatic.net/s3/edu/tex/11190ca6412a1fa74766751823d18975.svg"><span>где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.65ex" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg"><span> — масса в килограммах, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.07ex" src="https://yastatic.net/s3/edu/tex/5470b9993b5d776db89f25ac7cfff3a1.svg"><span> — скорость в м/с. </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span> Найдите, под каким наименьшим углом </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.392ex" src="https://yastatic.net/s3/edu/tex/4b665bcadbe886cbf7faf638e11c3887.svg"><span> (в градусах) должны двигаться тела, чтобы в результатесоударения выделилось энергии не менее </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/32bb90e8976aab5298d5da10fe66f21d.svg"><span> джоулей.</span></span></div>',
-    answer: '60',
+    answer: "60",
   },
 
   {
     number: 12,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Два тела, массой </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:5.695ex" src="https://yastatic.net/s3/edu/tex/4ae12f01f3c5aeee8f675424b1a9f29a.svg"><span> кг каждое, движутся с одинаковой скоростью </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:5.221ex" src="https://yastatic.net/s3/edu/tex/7ee830351d844b3817ba713baf38e979.svg"><span> м/с под углом </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.392ex" src="https://yastatic.net/s3/edu/tex/bae90bbf07b6bae749053ba35d9e876b.svg"><span> друг к другу. Энергия (в джоулях), выделяющаяся приих абсолютно неупругом соударении, вычисляется по формуле </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.9ex;width:14.932ex" src="https://yastatic.net/s3/edu/tex/43f5b07e2bf7133bffd51573b76718eb.svg"><span>где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.65ex" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg"><span> — масса в килограммах, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.523ex;width:1.176ex" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg"><span> — скорость в м/с. </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, под каким наименьшим углом </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.392ex" src="https://yastatic.net/s3/edu/tex/4b665bcadbe886cbf7faf638e11c3887.svg"><span> (в градусах) должны двигаться тела, чтобы в результатесоударения выделилось энергии не менее </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:2.325ex" src="https://yastatic.net/s3/edu/tex/8e296a067a37563370ded05f5a3bf3ec.svg"><span> джоулей.</span></span></div>',
-    answer: '90',
+    answer: "90",
   },
 
   {
     number: 13,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Локатор батискафа, равномерно погружающегося вертикально вниз, испускает ультразвуковой сигнал частотой </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:3.487ex" src="https://yastatic.net/s3/edu/tex/b056eb1587586b71e2da9acfe4fbd19e.svg"><span> МГц. Приёмник регистрирует частоту сигнала, отражённого от дна океана. Скорость погружения батискафа (в м/с) и частоты связаны соотношением</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:14.436ex" src="https://yastatic.net/s3/edu/tex/c5baf372e03738ddbc5acf7576ab2b27.svg"></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:8.497ex" src="https://yastatic.net/s3/edu/tex/c65551a3454f082a42f3ca66aa7685a2.svg"><span> м/с — скорость звука в воде, </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:2.344ex" src="https://yastatic.net/s3/edu/tex/78155d2ec4b025a5ac903d6f8611756c.svg"><span> — частота испускаемого сигнала (в МГц), </span><img class="Formula Formula_img" style="vertical-align:-.693ex;height:2.487ex;width:1.43ex" src="https://yastatic.net/s3/edu/tex/8fa14cdd754f91cc6554c9e71929cce7.svg"><span> — частота отражённого сигнала (в МГц).</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите частоту отражённого сигнала (в МГц), если батискаф погружается со скоростью </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.162ex" src="https://yastatic.net/s3/edu/tex/c81e728d9d4c2f636f067f89cc14862c.svg"><span> м/с. </span></span></div>',
-    answer: '751',
+    answer: "751",
   },
 
   {
     number: 14,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>После дождя уровень воды в колодце может повыситься. Мальчик измеряет время </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.799ex;width:.728ex" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg"><span> падения небольших камешков в колодец и рассчитывает расстояние до воды по формуле </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.624ex;width:7.02ex" src="https://yastatic.net/s3/edu/tex/10738e5d70da431de48d35135ec1299a.svg"><span>, где </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:1.193ex" src="https://yastatic.net/s3/edu/tex/2510c39011c5be704182423e3a695e91.svg"><span> – расстояние в метрах, </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:1.799ex;width:.728ex" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg"><span> – время падения в секундах. До дождя время падения камешков составляло </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:3.294ex" src="https://yastatic.net/s3/edu/tex/fc16eaa9ed39c2ad399747fab6723d5d.svg"><span> с.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>На сколько должен подняться уровень воды после дождя, чтобы измеряемое время изменилось на </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:3.294ex" src="https://yastatic.net/s3/edu/tex/aa2cccd504827fae2b924b9b334db92c.svg"><span> с? </span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в метрах.</span></span></div>',
-    answer: '1,8',
+    answer: "1,8",
   },
 
   {
     number: 15,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Коэффициент полезного действия (КПД) некоторого двигателя определяется формулой </span><img class="Formula Formula_img" style="vertical-align:-2.207ex;height:5.515ex;width:18.999ex" src="https://yastatic.net/s3/edu/tex/7e533f61ca040fd0416fa55cd67158c2.svg"><span>, где </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:2.333ex" src="https://yastatic.net/s3/edu/tex/a5749ec33f2c95fe8c19d702d76d4968.svg"><span> — температура нагревателя (в кельвинах), </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:2.333ex" src="https://yastatic.net/s3/edu/tex/f066e1184caa1b9991cbceb207ea6341.svg"><span> — температура холодильника (в кельвинах).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При какой температуре нагревателя </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:2.333ex" src="https://yastatic.net/s3/edu/tex/a5749ec33f2c95fe8c19d702d76d4968.svg"><span> КПД этого двигателя будет </span><img class="Formula Formula_img" style="vertical-align:-.28ex;height:2.074ex;width:4.061ex" src="https://yastatic.net/s3/edu/tex/7180d99271a8a046b2aaea0241c8614e.svg"><span>, если температура холодильника </span><img class="Formula Formula_img" style="vertical-align:-.555ex;height:2.349ex;width:10.567ex" src="https://yastatic.net/s3/edu/tex/af5c8dd40d341ae04eef1d4b8f34d484.svg"><span>?</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ дайте в кельвинах.</span></span></div>',
-    answer: '500',
+    answer: "500",
   },
 
   {
     number: 16,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для сматывания кабеля на заводе используют лебёдку, которая равноускоренно наматывает кабель на катушку. Угол, на который поворачивается катушка, изменяется со временем по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/41e335c4f20a113467c797119d3a69cb.svg" style="vertical-align: -1.794ex; height: 5.515ex; width: 13.189ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в минутах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0950275c86d9ca662d071275615bc838.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.598ex;"><span>/мин — начальная угловая скорость вращения катушки, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/055305acdb2ffca0614108564ed92ad9.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.057ex;"><span>/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span> — угловое ускорение, с которым наматывается кабель. Рабочий должен проверить ход его намотки не позже того момента, когда угол намотки </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> достигнет </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4471b4105c3ff37aa73c9d0a198ae7cf.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.458ex;"><span>. </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите время после начала работы лебёдки, не позже которого рабочий должен проверить её работу. </span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в минутах.</span></span></div>',
-    answer: '30',
+    answer: "30",
   },
 
   {
     number: 17,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Вес тела, выраженный в Ньютонах, зависит от расстояния до оси собственного вращения Земли. В разных точках земного шара он может быть найден по формуле:</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/320d26ef67551ac11e20c95340deae46.svg" style="vertical-align: -1.932ex; height: 5.652ex; width: 17.688ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> — масса тела в кг, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/112f48e4093c514cc217aced1a5dfb3b.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span> — ускорение свободного падения, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4f08e3dba63dc6d40b22952c7a9dac6d.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.32ex;"><span> принять равным </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/eccbc87e4b5ce2fe28308fd9f2a7baf3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span>, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e1e1d3d40573127e9ee0480caf1283d6.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.72ex;"><span> — расстояние до оси вращения, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f7e8bd55bfaf65af042fa8382538028b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 10.252ex;"><span> c. — период обращения земли вокруг собственной оси. </span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>На сколько отличается вес тела массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/def7924e3199be5e18060bb3e1d547a7.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> кг на экваторе, где расстояние до оси вращения примерно равно </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/228d890fbedd49e02805d90b8f47cffa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.137ex;"><span> м, от веса тела на северном полюсе, где расстояние до оси вращения примерно равно нулю?</span></span></div>',
-    answer: '105',
+    answer: "105",
   },
 
   {
     number: 18,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Небольшой мячик бросают под острым углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> к плоской горизонтальной поверхности земли. Расстояние, которое пролетает мячик, вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e24ad080787c5e7580aadc25e5f960a1.svg" style="vertical-align: -2.207ex; height: 6.203ex; width: 12.993ex;"><span> (м), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/50e32069a4e046c18ffec6d5c723221d.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.313ex;"><span> м/с — начальная скорость мяча, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b2f5ff47436671b6e533d8dc3614845d.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.144ex;"><span> — ускорение свободного падения (считайте, что </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e79477c53628c7df7627b460b15f5cc5.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При каком наименьшем значении угла (в градусах) мяч пролетит </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d3d9446802a44259755d38e6d163e820.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.325ex;"><span> м?</span></span></div>',
-    answer: '45',
+    answer: "45",
   },
 
   {
     number: 19,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Небольшой мячик бросают под острым углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> к плоской горизонтальной поверхности земли. Расстояние, которое пролетает мячик, вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e24ad080787c5e7580aadc25e5f960a1.svg" style="vertical-align: -2.207ex; height: 6.203ex; width: 12.993ex;"><span> (м), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/50e32069a4e046c18ffec6d5c723221d.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.313ex;"><span> м/с — начальная скорость мяча, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b2f5ff47436671b6e533d8dc3614845d.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.144ex;"><span> — ускорение свободного падения (считайте, что </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e79477c53628c7df7627b460b15f5cc5.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При каком наименьшем значении угла (в градусах) мяч пролетит </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e4da3b7fbbce2345d7772b0674a318d5.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> м?</span></span></div>',
-    answer: '15',
+    answer: "15",
   },
 
   {
     number: 20,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Расстояние от наблюдателя, находящегося на высоте </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2510c39011c5be704182423e3a695e91.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.193ex;"><span> м над землёй, выраженное в километрах, до наблюдаемой им линии горизонта вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5a073ed70501c7f5e43d5c6a67e053d3.svg" style="vertical-align: -2.344ex; height: 6.203ex; width: 10.557ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/10c00d19f62c7c43437f31231b8b2524.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 9.252ex;"><span> км — радиус Земли. Человек, стоящий на холме, видит горизонт на расстоянии </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/cc00e77607a8fb4dc3e7ebd7f3e78ad4.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 3.294ex;"><span> км.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>На сколько метров нужно подняться человеку, чтобы расстояние до горизонта увеличилось до </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6bf01487df7c56b8a9d37f44f67898ba.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 4.456ex;"><span> километров?</span></span></div>',
-    answer: '4,4',
+    answer: "4,4",
   },
 
   {
     number: 21,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Расстояние от наблюдателя, находящегося на высоте </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2510c39011c5be704182423e3a695e91.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.193ex;"><span> м над землёй, выраженное в километрах, до наблюдаемой им линии горизонта вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5a073ed70501c7f5e43d5c6a67e053d3.svg" style="vertical-align: -2.344ex; height: 6.203ex; width: 10.557ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/10c00d19f62c7c43437f31231b8b2524.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 9.252ex;"><span> км — радиус Земли. Человек, стоящий на холме, видит горизонт на расстоянии </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c9f0f895fb98ab9159f51fd0297e236d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> км.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>На сколько метров нужно подняться человеку, чтобы расстояние до горизонта увеличилось до </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/afb9da6f3d70672632ad886a5a607e86.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 4.456ex;"><span> километров?</span></span></div>',
-    answer: '4,8',
+    answer: "4,8",
   },
 
   {
     number: 22,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Груз колеблется на пружине. Его скорость </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4fdefba26320686bb2bd0579a0df421c.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.074ex;"><span> меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9966d2c1aa8ba483a6afdeb98116c76d.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 13.983ex;"><span> (в м/с), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время с момента начала колебаний (в с), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e5f757d8a4e0d868c100eaa5db59871.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.602ex;"><span> с — период колебаний, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/59a9ec9f22759ea0e597d5cc08152854.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 8.281ex;"><span> м/с. Кинетическая энергия </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3a3ea00cfc35332cedf6e5e9a32e94da.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.706ex;"><span> груза массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> (в кг) равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9cca3f6569b4e5ccd1e8bdddc316f814.svg" style="vertical-align: -1.794ex; height: 5.515ex; width: 9.21ex;"><span> (в Дж), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4fdefba26320686bb2bd0579a0df421c.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.074ex;"><span> — скорость груза (в м/с).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите кинетическую энергию груза в момент времени </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a549a9042277e01b9d1cccbe099303df.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.773ex;"><span> секунды после начала колебаний, если масса груза равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e355e4dab36951a7a989d4d54d02e01c.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 3.294ex;"><span> кг.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ дайте в джоулях.</span></span></div>',
-    answer: '0,05',
+    answer: "0,05",
   },
 
   {
     number: 23,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Груз колеблется на пружине. Его скорость </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4fdefba26320686bb2bd0579a0df421c.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.074ex;"><span> меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8f0019c441a5f83045b680ad8359f33e.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 13.983ex;"><span> (в м/с), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время с момента начала колебаний (в с), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/be0cc54b70afbe84898cb282b93997f9.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.602ex;"><span> c — период колебаний, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d1d5bb1932645bf98ef3e73eb7077f14.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 8.281ex;"><span> м/с. Кинетическая энергия </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3a3ea00cfc35332cedf6e5e9a32e94da.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.706ex;"><span> груза с массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> (в кг) равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1ab3b06b4542a8668935f06539306fd5.svg" style="vertical-align: -1.794ex; height: 5.515ex; width: 9.21ex;"><span> (в Дж), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4fdefba26320686bb2bd0579a0df421c.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.074ex;"><span> — скорость груза (в м/с).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите кинетическую энергию груза в момент времени </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a048559662d4b59eb8308cf4f404c163.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.773ex;"><span> секунды после начала колебаний, если масса груза равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/17a042ddb38cf8ecbf4e49ad47ee211b.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 4.456ex;"><span> кг. </span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ дайте в джоулях.</span></span></div>',
-    answer: '0,18',
+    answer: "0,18",
   },
 
   {
     number: 24,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> кг начинает тормозить и проходит до полной остановки путь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.581ex;"><span> м. Сила трения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/800618943025315f869e4e1f09471012.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.68ex;"><span> (в Н), масса автомобиля </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> (в кг), время </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> (в с) и пройденный путь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.581ex;"><span> (в м) связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/303dababacdebb60ed147133fbab47d2.svg" style="vertical-align: -1.932ex; height: 5.239ex; width: 9.792ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите, сколько секунд заняло торможение, если известно, что сила трения равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0fc170ecbb8ff1afb2c6de48ea5343e7.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> Н, масса автомобиля — </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2cad8fa47bbef282badbb8de5374b894.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> кг, путь — </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7ef605fc8dba5425d6965fbd4c8fbe1f.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> м.</span></span></div>',
-    answer: '15',
+    answer: "15",
   },
 
   {
     number: 25,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> кг начинает тормозить и проходит до полной остановки путь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.581ex;"><span> м. Сила трения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/800618943025315f869e4e1f09471012.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.68ex;"><span> (в Н), масса автомобиля </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> (в кг), время </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> (в с) и пройденный путь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.581ex;"><span> (в м) связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/303dababacdebb60ed147133fbab47d2.svg" style="vertical-align: -1.932ex; height: 5.239ex; width: 9.792ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите, сколько секунд заняло торможение, если известно, что сила трения равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/08f90c1a417155361a5c4b8d297e0d78.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> Н, масса автомобиля — </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/cfa5301358b9fcbe7aa45b1ceea088c6.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> кг, путь — </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d490d7b4576290fa60eb31b5fc917ad1.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> м.</span></span></div>',
-    answer: '30',
+    answer: "30",
   },
 
   {
     number: 26,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для нагревательного элемента некоторого прибора экспериментально была получена зависимость температуры (в К) от времени работы:</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/bed5f9d46cb8fe9549688692eaa4c82f.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 19.651ex;"><span></span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время (в мин.), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e5b6804ba8d2e350680c8ff8c4f3c1d9.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 9.865ex;"><span>К, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/ec5218344b71d6fd8b504d82b807aa7d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.967ex;"><span>К/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3441b9fb360751551531f49e36baae4e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.463ex;"><span>К/мин. Известно, что при температуре нагревательного элемента свыше 1800К прибор может испортиться, поэтому его нужно отключить.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, через какое наибольшее время после начала работы нужно отключить прибор. Ответ дайте в минутах.</span></span></div>',
-    answer: '4',
+    answer: "4",
   },
 
   {
     number: 27,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Водолазный колокол, содержащий </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4cc7a80039adb258a00b61694d837eee.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.114ex;"><span> молей воздуха при давлении </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/29bb63ed3507652e6305e85c5ad2d081.svg" style="height: 2.487ex; width: 8.436ex;"><span> атмосферы, медленно опускают на дно водоёма. При этом происходит изотермическое сжатие воздуха до конечного давления </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6fe97b358b528edc477ba63d50b652af.svg" style="height: 1.936ex; width: 2.26ex;"><span>. Работа, совершаемая водой при сжатии воздуха, определяется выражением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/844dfddbaca4ba4e4363ca0d633f5fd6.svg" style="vertical-align: -2.207ex; height: 4.964ex; width: 16.233ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/db292ab9d3d26832c904fc02d370a047.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 17.553ex;"><span> — постоянная, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8bc7f7f92d8b80ff1895a14db1b1df.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.927ex;"><span> К — температура воздуха.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, какое давление </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6fe97b358b528edc477ba63d50b652af.svg" style="height: 1.936ex; width: 2.26ex;"><span> (в атм) будет иметь воздух в колоколе, если при сжатии воздуха была совершена работа в </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/20d749bc05f47d2bd3026ce457dcfd8e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.812ex;"><span> Дж.</span></span></div>',
-    answer: '5',
+    answer: "5",
   },
 
   {
     number: 28,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Водолазный колокол, содержащий </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c57168ae819172a49d6a1a92198aedb7.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.114ex;"><span> моля воздуха при давлении </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/493d2e82a0d3c235cd00dd1c76486c32.svg" style="height: 2.487ex; width: 8.436ex;"><span> атмосферы, медленно опускают на дно водоёма. При этом происходит изотермическое сжатие воздуха до конечного давления </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6fe97b358b528edc477ba63d50b652af.svg" style="height: 1.936ex; width: 2.26ex;"><span>. Работа, совершаемая водой при сжатии воздуха, определяется выражением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/844dfddbaca4ba4e4363ca0d633f5fd6.svg" style="vertical-align: -2.207ex; height: 4.964ex; width: 16.233ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/ed44e2c879825c18d265ac3ec70bf655.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 17.553ex;"><span> — постоянная, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8bc7f7f92d8b80ff1895a14db1b1df.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.927ex;"><span> К — температура воздуха.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, какое давление </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6fe97b358b528edc477ba63d50b652af.svg" style="height: 1.936ex; width: 2.26ex;"><span> (в атм) будет иметь воздух в колоколе, если при сжатии воздуха была совершена работа в </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5e1f128ae6bd71960aa75fdd584b9db5.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.812ex;"><span> Дж.</span></span></div>',
-    answer: '9,6',
+    answer: "9,6",
   },
 
   {
     number: 29,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При нормальном падении света с длиной волны </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/bdccd410e494af506794acb34941ee9a.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.628ex;"><span> нм на дифракционную решётку с периодом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8277e0910d750195b448797616e091ad.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.237ex;"><span> нм наблюдают серию дифракционных максимумов. При этом угол </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> (отсчитываемый от перпендикуляра к решётке), под которым наблюдается максимум, и номер максимума </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8ce4b16b22b58894aa86c421e8759df3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.26ex;"><span> связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/175e7bf9421a35e2617366563a2ef3d3.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 11.673ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Под каким минимальным углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> (в градусах) можно наблюдать второй максимум на решётке с периодом, не превосходящим </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e984c108157cea74c894b5cf34efc44.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> нм?</span></span></div>',
-    answer: '30',
+    answer: "30",
   },
 
   {
     number: 30,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При нормальном падении света с длиной волны </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83fecf897c41df473b9dcefe8b62e5d7.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.628ex;"><span> нм на дифракционную решётку с периодом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8277e0910d750195b448797616e091ad.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.237ex;"><span> нм наблюдают серию дифракционных максимумов. При этом угол </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> (отсчитываемый от перпендикуляра к решётке), под которым наблюдается максимум, и номер максимума </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8ce4b16b22b58894aa86c421e8759df3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.26ex;"><span> связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/175e7bf9421a35e2617366563a2ef3d3.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 11.673ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Под каким минимальным углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> (в градусах) можно наблюдать третий максимум на решётке с периодом, не превосходящим </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/03e7d2ebec1e820ac34d054df7e68f48.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.65ex;"><span> нм?</span></span></div>',
-    answer: '90',
+    answer: "90",
   },
 
   {
     number: 31,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>После дождя уровень воды в колодце может повыситься. Мальчик определяет его, измеряя время падения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> небольших камней в колодец и рассчитывая расстояние до воды по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1da7fb7236cc063f1991b4273f7d5b21.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 7.02ex;"><span>. До дождя время падения камней составляло </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a49621aa28cc6ea2e91b4cf5193de2d0.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 3.294ex;"><span> с. На какую минимальную высоту должен подняться уровень воды после дождя, чтобы измеряемое время изменилось больше, чем на </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/93e7709cfdece731b854c055e03e8565.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 3.294ex;"><span> с? (Ответ выразите в метрах).</span></span></div>',
-    image: '',
-    question: '',
-    answer: '1,4',
+    image: "",
+    question: "",
+    answer: "1,4",
   },
 
   {
     number: 32,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В цилиндрическом сосуде уровень жидкости достигает </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f4922f45568161a8cdf4ad2299f6d23.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.325ex;"><span> см. На какой высоте будет находиться уровень жидкости, если ее перелить во второй сосуд, диаметр которого в </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/eccbc87e4b5ce2fe28308fd9f2a7baf3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> раза больше первого?</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ дайте в сантиметрах.</span></span></div>',
-    answer: '2',
+    answer: "2",
   },
 
   {
     number: 33,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для поддержания балкона планируется использовать цилиндрическую колонну. Давление </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> (в паскалях), оказываемое балконом и колонной на опору, определяется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2059b4f5a3d3c95f08e7aaab57688239.svg" style="vertical-align: -1.932ex; height: 5.239ex; width: 9.565ex;"><span>, где</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5efbcb2512694c70f6172234990e1f83.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 9.182ex;"><span> кг — общая масса балкона и колонны,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f623e75af30e62bbd73d6df5b50bb7b5.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.836ex;"><span> — диаметр колонны (в метрах).</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Считая ускорение свободного падения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/112f48e4093c514cc217aced1a5dfb3b.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7efc5ac9d2a6787cf2d12551f0ce041b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.365ex;"><span>, определите наименьший возможный диаметр колонны, если давление, оказываемое на опору, не должно быть превышать </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/28cb60d4e39d9025b517a08711d767f9.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.362ex;"><span> Па.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в метрах.</span></span></div>',
-    answer: '0,4',
+    answer: "0,4",
   },
 
   {
     number: 34,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В ходе распада радиоактивного изотопа его масса уменьшается по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a0e6b79a3b1bbd4c278a536734ee2c22.svg" style="vertical-align: -0.693ex; height: 3.45ex; width: 14.603ex;"><span>,&nbsp;где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fed1e4775925bd3f7af0c5d8fc47e4e6.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.704ex;"><span> (мг) — начальная масса изотопа, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> (мин.) — время, прошедшее от начального момента, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.557ex;"><span> (мин.) — период полураспада. В начальный момент времени масса изотопа </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d8f9fbc7701f806c86f499e12a08c069.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.912ex;"><span> мг. Период его полураспада </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3d0c559b2b9a7c2d8b5297e24ade0054.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.602ex;"><span> мин.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Через сколько минут масса изотопа будет равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/01be58fb367af9bd5ffca1f651e0aec9.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 4.456ex;"><span> мг?</span></span></div>',
-    answer: '10',
+    answer: "10",
   },
 
   {
     number: 35,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При равноускоренном движении колеса троллейбуса его угловая скорость </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/260b57b4fdee8c5a001c09b555ccd28d.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.583ex;"><span> (измеряемая в градусах в секунду) и угловое ускорение </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f8b1c5a729a09649c275fca88976d8dd.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.125ex;"><span> связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/030bc0b7d1216869c020d50227f44d1b.svg" style="vertical-align: -0.968ex; height: 3.313ex; width: 14.617ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b0e7a386c3bc9554d58b4d928100ba01.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.637ex;"><span> — начальная угловая скорость колеса, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> — угол поворота колеса, измеряемый в градусах. Отъезжая от остановки, троллейбус начинает равноускоренное движение с ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c9dc86707cfddcfebed950805e509bdd.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 6.476ex;"><span> Сколько полных оборотов сделает колесо троллейбуса к тому времени, как его угловая скорость достигнет значения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/bcc919bcf85caae96ba58b7d4fe1ded8.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.002ex;"><span>? Полный оборот колеса равен </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b3e68d206c4b0fb51a07652df4392a19.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.877ex;"></span></div>',
-    image: '',
-    question: '',
-    answer: '5',
+    image: "",
+    question: "",
+    answer: "5",
   },
 
   {
     number: 36,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В волшебной стране три типа погоды: хорошая, отличная и превосходная. Парламент страны заказывает погоду на следующие </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e4da3b7fbbce2345d7772b0674a318d5.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> дней. В рассмотрении находятся два варианта: </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>За предоставление соответствующей погоды приходится платить по тарифам, указанным в таблице. </span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Сейчас в стране отличная погода. Какой вариант обойдется бюджету страны дешевле? </span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В ответе укажите соответствующую сумму в у.е.</span></span></div>',
-    answer: '750',
+    answer: "750",
   },
 
   {
     number: 37,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В физике элементарных частиц используется своя система единиц, в которой скорость безразмерна; масса имеет ту же размерность, что и энергия, и измеряются они в электронвольтах. При движении с релятивистскими скоростями, кинетическая энергия </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.557ex;"><span> движущейся частицы равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/cf67bbfc45c71809e0e32147233ac190.svg" style="vertical-align: -4.684ex; height: 10.47ex; width: 19.429ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> — масса покоя частицы, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4a8a08f09d37b73795649038408b5f33.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 0.965ex;"><span> — скорость света в вакууме, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.176ex;"><span> — скорость движения частицы. Известно, что протон массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/74bba22728b6185eec06286af6bec36d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> МэВ (мегаэлектронвольт) движется с кинетической энергией </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e709840ac9564a6bc40b796651143335.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 5.619ex;"><span> МэВ. Чему равна скорость протона, если принять скорость света </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4a8a08f09d37b73795649038408b5f33.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 0.965ex;"><span> за </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c4ca4238a0b923820dcc509a6f75849b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span>?</span></span></div>',
-    image: '',
-    question: '',
-    answer: '0,6',
+    image: "",
+    question: "",
+    answer: "0,6",
   },
 
   {
     number: 38,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В магазин поступила керамическая плитка трех видов: «Морские мечты», «Японские напевы» и «Небесная лазурь». Плитки имеют разный размер и упакованы в коробки. Пользуясь данными таблицы, определите, в каком случае цена одного квадратного метра плитки будет наименьшей. В ответе укажите эту цену.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '650',
+    image: "",
+    question: "",
+    answer: "650",
   },
 
   {
     number: 39,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для определения эффективной температуры звёзд используют закон Стефана — Больцмана, согласно которому мощность излучения нагретого тела </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> прямо пропорциональна площади его поверхности </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.581ex;"><span> и четвёртой степени температуры </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.557ex;"><span>: </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b01bed4da89d3ca663decab91e1d75ff.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 10.066ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fd1d8be181b95ba979a970788d1ad877.svg" style="vertical-align: -0.555ex; height: 2.9ex; width: 13.651ex;"><span> — постоянная, площадь измеряется в квадратных метрах, температура — в кельвинах, а мощность — в ваттах. Известно, что некоторая звезда имеет площадь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b1d96f20e48a685f183c2ca11824f40.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 14.685ex;"><span> м</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, а излучаемая ею мощность </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> не менее </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1662503d121d9f1b9c6157d73c1a8eae.svg" style="vertical-align: -0.555ex; height: 2.9ex; width: 10.355ex;"><span> Вт.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите наименьшую возможную температуру этой звезды. Ответ дайте в кельвинах.</span></span></div>',
-    answer: '4000',
+    answer: "4000",
   },
 
   {
     number: 40,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для поддержания балкона планируется использовать цилиндрическую колонну. Давление </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> (в паскалях), оказываемое балконом и колонной на опору, определяется по формуле</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/924114daa2f4ccbf15e2910fc45bdf2b.svg" style="vertical-align: -1.932ex; height: 5.239ex; width: 9.565ex;"><span>,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0ce608f7ca083b02f62111f9edf28870.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 9.182ex;"><span> кг — общая масса балкона и колонны,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f623e75af30e62bbd73d6df5b50bb7b5.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.836ex;"><span> — диаметр колонны (в метрах).</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Считая ускорение свободного падения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/112f48e4093c514cc217aced1a5dfb3b.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c8d8dc812b85ea27c0336a3323ccef19.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.365ex;"><span>, определите наименьший возможный диаметр колонны, если давление, оказываемое на опору, не должно превышать </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/226d1965e1dbd768613ebf3340e60262.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 7.62ex;"><span> Па.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в метрах.</span></span></div>',
-    answer: '0,4',
+    answer: "0,4",
   },
 
   {
     number: 41,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Локатор батискафа, равномерно погружающегося вертикально вниз, испускает ультразвуковые импульсы частотой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/ad972f10e0800b49d76fed33a21f6698.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> МГц. Батискаф спускается со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a6c35878afc32b404686b95377c34753.svg" style="vertical-align: -2.207ex; height: 5.515ex; width: 12.258ex;"><span> метров в секунду, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c65551a3454f082a42f3ca66aa7685a2.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.497ex;"><span> м/с — скорость звука в воде, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/78155d2ec4b025a5ac903d6f8611756c.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 2.344ex;"><span> (МГц) — частота испускаемых импульсов, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8fa14cdd754f91cc6554c9e71929cce7.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 1.43ex;"><span> (МГц) — частота отраженного от дна сигнала, регистрируемая приемником.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите наибольшую возможную частоту отраженного сигнала </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8fa14cdd754f91cc6554c9e71929cce7.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 1.43ex;"><span>, если скорость погружения батискафа не должна превышать </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a87ff679a2f3e71d9181a67b7542122c.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> м/с.</span></span></div>',
-    answer: '376',
+    answer: "376",
   },
 
   {
     number: 42,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В боковой стенке высокого цилиндрического бака у самого дна закреплeн кран. После его открытия вода начинает вытекать из бака, при этом высота столба воды в нeм, выраженная в метрах, меняется по закону</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4e3ca3a20597ba8473271a16b41e1271.svg" style="vertical-align: -1.794ex; height: 4.551ex; width: 31.266ex;"><span>,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в секундах, прошедшее с момента открытия крана,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3e3192410621f47eeb3845c813594bb8.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 8.29ex;"><span> м — начальная высота столба воды,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/79d7a97fe5deec05d5a0074cacc0390c.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 7.304ex;"><span> — отношение площадей поперечных сечений крана и бака,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b2f5ff47436671b6e533d8dc3614845d.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.144ex;"><span> — ускорение свободного падения (считайте </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/112f48e4093c514cc217aced1a5dfb3b.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>).</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Через сколько секунд после открытия крана в баке останется четверть первоначального объема воды?</span></span></div>',
-    answer: '50',
+    answer: "50",
   },
 
   {
     number: 43,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Мяч бросили в стену. Расстояние </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9dd4e461268c8034f5c8564e155c67a6.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.279ex;"><span> (в метрах) от мяча до стены меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/715b81960cdcc643b0828139381ff511.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 13.278ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время (в секундах), прошедшее с момента броска. Высота полета мяча </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/415290769594460e2e485922904f345d.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.153ex;"><span> (в метрах) меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/061b9e051f96bfb627488ade9291ca5e.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 19.152ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>На какой высоте будет находиться мяч, когда он ударится о стену? Ответ дайте в метрах.</span></span></div>',
-    answer: '4,5',
+    answer: "4,5",
   },
 
   {
     number: 44,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Трактор тащит сани с силой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1724d6b56d9425184e794ba7e42aa3b9.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.888ex;"><span> кН, направленной под острым углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> к горизонту. При скорости трактора </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/ea0ef45cb02c682cb64c422f2f22202a.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.114ex;"><span> м/с мощность равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4c12d1eb3b09ef50c4e212da9af45883.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 12.83ex;"><span> (кВт). При каком максимальном угле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> эта мощность будет не менее </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/39059724f73a9969845dfe4146c5660e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> кВт?</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ дайте в градусах.</span></span></div>',
-    answer: '60',
+    answer: "60",
   },
 
   {
     number: 45,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Датчик сконструирован таким образом, что его антенна ловит радиосигнал, который затем преобразуется в электрический сигнал, изменяющийся со временем по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/69e966f2d31c93809aef7b38571044f8.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 18.847ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в секундах, амплитуда </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fa5677964f9e3c7ffd1d35a561f893d2.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 6.738ex;"><span> В, частота </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/735ce6d0c34872ac5b16651021b3217a.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.761ex;"><span> в секунду, фаза </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3b9a77d86d5e073e20cd6656552b88dc.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 9.107ex;"><span>. Датчик настроен так, что если напряжение в нем не ниже чем </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c4ca4238a0b923820dcc509a6f75849b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> В, загорается лампочка. Сколько процентов времени на протяжении первой секунды после начала работы лампочка будет гореть?</span></span></div>',
-    image: '',
-    question: '',
-    answer: '75',
+    image: "",
+    question: "",
+    answer: "75",
   },
 
   {
     number: 46,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Скейтбордист прыгает на стоящую на рельсах платформу со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7c9127e4e260c4fa91d266773f31971d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.114ex;"><span> м/с под острым углом к рельсам. От толчка платформа начинает двигаться со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8ac7c8092ffa9c24edd78c276e67bff0.svg" style="vertical-align: -1.932ex; height: 4.826ex; width: 15.652ex;"><span>  (м/с), где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/17ab7560df27fd11b06d7946a457547d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.858ex;"><span> кг — масса скейтбордиста со скейтом, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0e3f59173bbce8e3a9d0f6e6b1e744e6.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.821ex;"><span> кг — масса платформы.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Под каким максимальным углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> нужно прыгать, чтобы разогнать платформу не менее чем до </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b8419f613c848eb036cdaefe4c10e320.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 3.294ex;"><span> м/с? Ответ дайте в градусах.</span></span></div>',
-    answer: '60',
+    answer: "60",
   },
 
   {
     number: 47,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В ходе распада радиоактивного изотопа его масса уменьшается по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3b8fe845ef4088acc1abff72adc47c0e.svg" style="vertical-align: -0.693ex; height: 4.001ex; width: 15.084ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fed1e4775925bd3f7af0c5d8fc47e4e6.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.704ex;"><span> (мг) — начальная масса изотопа, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> (мин.) — время, прошедшее от начального момента, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.557ex;"><span> (мин.) — период полураспада. </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В начальный момент времени масса изотопа </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d8f9fbc7701f806c86f499e12a08c069.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.912ex;"><span> мг. Период его полураспада </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3d0c559b2b9a7c2d8b5297e24ade0054.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.602ex;"><span> мин. Через сколько минут масса изотопа будет равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/01be58fb367af9bd5ffca1f651e0aec9.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 4.456ex;"><span> мг?</span></span></div>',
-    answer: '10',
+    answer: "10",
   },
 
   {
     number: 48,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Расстояние от наблюдателя, находящегося на небольшой высоте </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2510c39011c5be704182423e3a695e91.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.193ex;"><span> метров над землей, выраженное в километрах, до наблюдаемой им линии горизонта вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/148c9f865fd9ed8a8d5a710f8640640d.svg" style="vertical-align: -2.344ex; height: 6.203ex; width: 10.557ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3ef72e61218c47d59a45fd28411b0b3a.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 9.252ex;"><span> (км) — радиус Земли. С какой высоты горизонт виден на расстоянии </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c9f0f895fb98ab9159f51fd0297e236d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> км? </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ дайте в метрах.</span></span></div>',
-    answer: '5',
+    answer: "5",
   },
 
   {
     number: 49,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Выехав из города со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f894b4efd39b0efac2ee01eeeae4ffd0.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.438ex;"><span> км/ч, мотоциклист начинает разгоняться с постоянным ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/082f9e14ce59c39596466d94d0c6ba17.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.212ex;"><span> км/ч</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>. Расстояние от мотоциклиста до города, измеряемое в километрах, определяется выражением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1eb5ba10e6c5f7ec0b65600c86a318d3.svg" style="vertical-align: -1.794ex; height: 5.515ex; width: 13.832ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> (ч) — время, прошедшее с момента выезда мотоциклиста из города. Через сколько минут мотоциклист доберётся от границы города до автозаправочной станции, расположенной в </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a1d0c6e83f027327d8461063f4ac58a6.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.325ex;"><span> км от города?</span></span></div>',
-    image: '',
-    question: '',
-    answer: '45',
+    image: "",
+    question: "",
+    answer: "45",
   },
 
   {
     number: 50,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Зависимость амплитуды колебаний маятника от частоты вынуждающей силы определяется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d4e81e880b761ba6a78e8b0889ed5e39.svg" style="vertical-align: -2.757ex; height: 6.616ex; width: 17.904ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/260b57b4fdee8c5a001c09b555ccd28d.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.583ex;"><span> — частота вынуждающей силы (в с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1a3327c170a43d3deaebd99338ef43ea.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 2.18ex;"><span>), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8ac42c30dec10068185957dc69fce8e0.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 2.721ex;"><span> — постоянный параметр, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/ab9de89e4752f729db6be125c63f2ca3.svg" style="vertical-align: -0.83ex; height: 2.624ex; width: 8.989ex;"><span> c</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1a3327c170a43d3deaebd99338ef43ea.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 2.18ex;"><span> — резонансная частота. Найдите максимальную частоту </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/260b57b4fdee8c5a001c09b555ccd28d.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.583ex;"><span>, меньшую резонансной, для которой амплитуда колебаний превосходит величину </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8ac42c30dec10068185957dc69fce8e0.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 2.721ex;"><span> не более чем на </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a886218e38f1e1b8be1caa0ba288de26.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.061ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1a3327c170a43d3deaebd99338ef43ea.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 2.18ex;"><span>.</span></span></div>',
-    answer: '546',
+    answer: "546",
   },
 
   {
     number: 51,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Помещённый в сосуд газ резко сжимают поршнем. При этом объём и давление газа связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a16ffffd7a5bf24d2b50e8c3ef529df1.svg" style="height: 3.037ex; width: 13.208ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span> — давление газа в атмосферах (атм), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5206560a306a2e085a437fd258eb57ce.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.766ex;"><span> — его объём в кубических сантиметрах (см</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6444b377db36b6abd9858f4ef90cd87a.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>). Исходный объём газа равен </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7a53928fa4dd31e82c6ef826f341daec.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> см</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6444b377db36b6abd9858f4ef90cd87a.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, а его давление равно </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c4ca4238a0b923820dcc509a6f75849b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> атмосфере. Поршень насоса выдерживает давление не более </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/76dc611d6ebaafc66cc0879c71b5db5c.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> атмосфер. До какого минимального объёма можно сжать газ?</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в кубических сантиметрах.</span></span></div>',
-    answer: '25',
+    answer: "25",
   },
 
   {
     number: 52,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В дне высокого цилиндрического бака с водой имеется кран. Кран открывают, и вода начинает вытекать из бака, при этом высота столба воды в нём, выраженная в метрах, меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/79881611c1d865dadf2ba634bd2193fb.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 20.407ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8bd18a2489d2b7a8bac02fab7bf38672.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.128ex;"><span> м — начальный уровень воды, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4d97a6378fa554b62d27b7ddde420519.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 7.211ex;"><span> м/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span> и </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e475d62f9f38e12038ef6a74d350ec1c.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.042ex;"><span> м/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span> ― постоянные, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в минутах, прошедшее с момента открытия крана. Через сколько минут вода полностью вытечет из бака?</span></span></div>',
-    image: '',
-    question: '',
-    answer: '10',
+    image: "",
+    question: "",
+    answer: "10",
   },
 
   {
     number: 53,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Локатор батискафа, равномерно погружающегося вертикально вниз, испускает ультразвуковой сигнал частотой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b056eb1587586b71e2da9acfe4fbd19e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> МГц. Приёмник регистрирует частоту сигнала, отражённого от дна океана. Скорость погружения батискафа (в м/с) и частоты связаны соотношением</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/bdc254dddad9baf00f83747465f99a90.svg" style="vertical-align: -2.207ex; height: 5.515ex; width: 13.956ex;"><span>,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/88768ac6c4a78eacc31ab95269c3d310.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.497ex;"><span> м/с — скорость звука в воде, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d43e51bee35b78083e05bcfc2119b318.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 2.344ex;"><span> — частота испускаемого сигнала (в МГц), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8fa14cdd754f91cc6554c9e71929cce7.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 1.43ex;"><span> — частота отражённого сигнала (в МГц).</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите частоту отражённого сигнала, если батискаф погружается со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c81e728d9d4c2f636f067f89cc14862c.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> м/с и дайте ответ в МГц.</span></span></div>',
-    answer: '751',
+    answer: "751",
   },
 
   {
     number: 54,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В процессе движения по взлетно-посадочной полосе самолет должен разогнаться из состояния покоя до скорости отрыва от земли. При этом он движется по закону равноускоренного движения: </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/636984c77a2c1000f5c3db6e312ec43b.svg" style="vertical-align: -1.794ex; height: 5.79ex; width: 13.831ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8bcda5f030288c05bb245be5d42b3c07.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.231ex;"><span> — начальная скорость,  </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0cc175b9c0f1b6a831c399e269772661.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.167ex;"><span> — ускорение, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/84fc825e5c5d6969221754059de4a804.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.231ex;"><span> и </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/03c7c0ace395d80182db07ae2c30f034.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.023ex;"><span> — соответственно скорость и пройденный путь по истечении некоторого промежутка времени. Определите, какую скорость приобрел самолет в момент отрыва от земли, при условии, что он двигался с ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2ffe16a6c69d52dd06aa0938e7a9ced3.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.343ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span> , а длина разбега составила </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/96f3f4d274a44f86c204a8e483630d20.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.555ex;"><span> м.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Выразите ответ в км/ч.</span></span></div>',
-    answer: '270',
+    answer: "270",
   },
 
   {
     number: 55,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль разгоняется на прямолинейном участке шоссе с постоянным ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f0f3ef7d2ffdc77a024195496e69768f.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.699ex;"><span> км/ч</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>. Скорость </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.176ex;"><span> (в км/ч) вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e1e06cf1b1fa9f28671bbbdaeacb330f.svg" style="vertical-align: -0.968ex; height: 3.45ex; width: 9.285ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2db95e8e1a9267b7a1188556b2013b33.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 0.74ex;"><span> — пройденный автомобилем путь (в км). Найдите, сколько километров проедет автомобиль к моменту, когда он разгонится до скорости 90 км/ч.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '0,9',
+    image: "",
+    question: "",
+    answer: "0,9",
   },
 
   {
     number: 56,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль разгоняется на прямолинейном участке шоссе с постоянным ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2985d03fb8a525f6127893db727b7a58.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.699ex;"><span> км/ч</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>. Скорость </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.176ex;"><span> (в км/ч) вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e1e06cf1b1fa9f28671bbbdaeacb330f.svg" style="vertical-align: -0.968ex; height: 3.45ex; width: 9.285ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2db95e8e1a9267b7a1188556b2013b33.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 0.74ex;"><span> — пройденный автомобилем путь (в км). Найдите, сколько километров проедет автомобиль к моменту, когда он разгонится до скорости </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/da4fb5c6e93e74d3df8527599fa62642.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> км/ч.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '0,8',
+    image: "",
+    question: "",
+    answer: "0,8",
   },
 
   {
     number: 57,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для нагревательного элемента некоторого прибора экспериментально была получена зависимость температуры (в кельвинах) от времени работы: </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9efdebc61f4d8dc73d92f03e04f32cb0.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 19.069ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в минутах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e44cbff3bff8e295b683ddb08fe99cd5.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 9.865ex;"><span> K, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9ca2eb842a18ffcbf7c4b131de4d27e4.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.804ex;"><span> К/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/77500ef9cbabb8eb5882939801e475f2.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.3ex;"><span> К/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>. Известно, что при температуре нагревательного элемента свыше 1550 К прибор может испортиться, поэтому его нужно отключить. Найдите, через какое наибольшее время после начала работы нужно отключить прибор. Ответ дайте в минутах.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '5',
+    image: "",
+    question: "",
+    answer: "5",
   },
 
   {
     number: 58,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для нагревательного элемента некоторого прибора экспериментально была получена зависимость температуры (в кельвинах) от времени работы: </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9efdebc61f4d8dc73d92f03e04f32cb0.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 19.069ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в минутах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e44cbff3bff8e295b683ddb08fe99cd5.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 9.865ex;"><span> К, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/10e19e9a9dba74e4d908c543854e3e3e.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 8.803ex;"><span> К/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d2c0aded63bbbe543cc0f4b533e1e9ef.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.3ex;"><span> К/мин</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>. Известно, что при температуре нагревательного элемента свыше 1720 К прибор может испортиться, поэтому его нужно отключить. Найдите, через какое наибольшее время после начала работы нужно отключить прибор. Ответ дайте в минутах.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '6',
+    image: "",
+    question: "",
+    answer: "6",
   },
 
   {
     number: 59,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Деталью некоторого прибора является квадратная рамка с намотанным на неё проводом, через который пропущен постоянный ток. Рамка помещена в однородное магнитное поле так, что она может вращаться. Момент силы Ампера, стремящейся повернуть рамку (в Н</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/36f8ae4c86b69d52d037a6802d91cc4a.svg" style="height: 1.11ex; width: 0.665ex;"><span>м), определяется формулой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/670641a319e116bd2c4c6e5dbf6b791c.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 16.79ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0683de214b77a3ad315aad6cc3c299bb.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.277ex;"><span> А — сила тока в рамке, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9131cab925031e64bba47661c10fe98d.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 11.865ex;"><span> Тл — значение индукции магнитного поля, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/65a2a75bdae7e44e4714555872e1353a.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 6.916ex;"><span> м — размер рамки, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2a61cbf9eb9ab22b6e656649076b969b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.464ex;"><span> — число витков провода в рамке, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> — острый угол между перпендикуляром к рамке и вектором индукции.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При каком наименьшем значении угла </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> (в градусах) рамка может начать вращаться, если для этого нужно, чтобы раскручивающий момент </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/69691c7bdcc3ce6d5d8a1361f22d04ac.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.451ex;"><span> был не меньше </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c81e728d9d4c2f636f067f89cc14862c.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span> Н</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/36f8ae4c86b69d52d037a6802d91cc4a.svg" style="height: 1.11ex; width: 0.665ex;"><span>м?</span></span></div>',
-    answer: '30',
+    answer: "30",
   },
 
   {
     number: 60,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Деталью некоторого прибора является квадратная рамка с намотанным на неё проводом, через который пропущен постоянный ток. Рамка помещена в однородное магнитное поле так, что она может вращаться. Момент силы Ампера, стремящейся повернуть рамку (в Н</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/36f8ae4c86b69d52d037a6802d91cc4a.svg" style="height: 1.11ex; width: 0.665ex;"><span>м), определяется формулой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/670641a319e116bd2c4c6e5dbf6b791c.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 16.79ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/12eb97047f05a48d2ca28347b4b6d21a.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.277ex;"><span> A — сила тока в рамке, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/cdde911f278a55e9e47de42d7c13d1b5.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 11.865ex;"><span> Тл — значение индукции магнитного поля, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/65a2a75bdae7e44e4714555872e1353a.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 6.916ex;"><span> м — размер рамки, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2a61cbf9eb9ab22b6e656649076b969b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 8.464ex;"><span> — число витков провода в рамке, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> — острый угол между перпендикуляром к рамке и вектором индукции.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При каком наименьшем значении угла </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7b7f9dbfea05c83784f8b85149852f08.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.23ex;"><span> (в градусах) рамка может начать вращаться, если для этого нужно, чтобы раскручивающий момент </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/69691c7bdcc3ce6d5d8a1361f22d04ac.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.451ex;"><span> был не меньше </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4b7626a9751b2b5007422e61efee0d80.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 3.294ex;"><span> Н</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/571ca3d7c7a5d375a429ff5a90bc5099.svg" style="height: 1.11ex; width: 0.665ex;"><span>м?</span></span></div>',
-    answer: '30',
+    answer: "30",
   },
 
   {
     number: 61,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль, движущийся в начальный момент времени со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/29f579f09c5a50979a53ef160e8912f1.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.438ex;"><span> м/с, начал торможение с постоянным ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3c9d2347726735da8c5c1ed9a44f5759.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.212ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/272ba5cfd2789d670bc65e40587345c3.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>. За </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> секунд после начала торможения он прошёл путь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/92317a07edab7b56b1d9ec7359a98bad.svg" style="vertical-align: -1.794ex; height: 5.515ex; width: 13.832ex;"><span> (м).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите время, прошедшее от момента начала торможения, если известно, что за это время автомобиль проехал </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/072b030ba126b2f4b2374f342be9ed44.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.325ex;"><span> метров.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в секундах.</span></span></div>',
-    answer: '5',
+    answer: "5",
   },
 
   {
     number: 62,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Автомобиль, движущийся в начальный момент времени со скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9ead28cc39b784398ccf3f803ede7740.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.438ex;"><span> м/с, начал торможение с постоянным ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3d7b566aaed7713dfc5583dfc4b9c386.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.212ex;"><span> м/с. За </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> секунд после начала торможения он прошёл путь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/92317a07edab7b56b1d9ec7359a98bad.svg" style="vertical-align: -1.794ex; height: 5.515ex; width: 13.832ex;"><span> (м).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите время, прошедшее от момента начала торможения, если известно, что за это время автомобиль проехал </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/072b030ba126b2f4b2374f342be9ed44.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.325ex;"><span> метров.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в секундах.</span></span></div>',
-    answer: '4',
+    answer: "4",
   },
 
   {
     number: 63,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Два тела массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/18dc2c0f14b73dccbe42239f5ffda597.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.695ex;"><span> кг каждое движутся с одинаковой скоростью </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/71b20eeb9d29db651794a473c8f6a1a9.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.221ex;"><span> м/с под углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4b665bcadbe886cbf7faf638e11c3887.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.392ex;"><span> друг к другу. Энергия (в Дж), выделяющаяся при их абсолютно неупругом соударении, вычисляется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/967ce066b3deb16662104548ed2d2977.svg" style="vertical-align: -0.555ex; height: 2.9ex; width: 14.351ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> — масса (в кг), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.176ex;"><span> — скорость (в м/с). Найдите, под каким углом </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4b665bcadbe886cbf7faf638e11c3887.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.392ex;"><span> должны двигаться тела, чтобы в результате соударения выделилась энергия, равная </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/99c5e07b4d5de9d18c350cdf64c5aa3d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> Дж. Ответ дайте в градусах.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '180',
+    image: "",
+    question: "",
+    answer: "180",
   },
 
   {
     number: 64,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При адиабатическом процессе для идеального газа выполняется закон </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/56814508141f191e39e60c1a57c0abdc.svg" style="height: 2.9ex; width: 16.64ex;"><span> Па</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/571ca3d7c7a5d375a429ff5a90bc5099.svg" style="height: 1.11ex; width: 0.665ex;"><span>м</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/dac419a0462146f65ebc882902ab8e65.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span> — давление в газе в паскалях, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5206560a306a2e085a437fd258eb57ce.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.766ex;"><span> — объём газа в кубических метрах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fbf63a7243367b6ea88fffad81e554b9.svg" style="vertical-align: -1.794ex; height: 5.239ex; width: 6.141ex;"><span>. </span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, какой объём </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5206560a306a2e085a437fd258eb57ce.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.766ex;"><span> (в куб. м ) будет занимать газ при давлении </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span> , равном </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e4d57e7c66d1639f2d7056c1416d00c7.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 6.239ex;"><span> Па.</span></span></div>',
-    answer: '27',
+    answer: "27",
   },
 
   {
     number: 65,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При адиабатическом процессе для идеального газа выполняется закон </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/ab64652ffba4ba688790a4cd38ea1908.svg" style="height: 3.037ex; width: 16.64ex;"><span> Па</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/571ca3d7c7a5d375a429ff5a90bc5099.svg" style="height: 1.11ex; width: 0.665ex;"><span>м</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/dac419a0462146f65ebc882902ab8e65.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span> — давление в газе в паскалях, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5206560a306a2e085a437fd258eb57ce.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.766ex;"><span> — объём газа в кубических метрах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d3b9a910c8f83993543034e65f18aed3.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 6.141ex;"><span>.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Найдите, какой объём </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5206560a306a2e085a437fd258eb57ce.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.766ex;"><span> (в куб. м) будет занимать газ при давлении </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span>, равном </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/cbd7abcec5b772149bd261040a8881b0.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 6.626ex;"><span> Па.</span></span></div>',
-    answer: '125',
+    answer: "125",
   },
 
   {
     number: 66,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Коэффициент полезного действия (КПД) некоторого двигателя определяется формулой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e2033491191c1f28ed33ece271aab8fd.svg" style="vertical-align: -2.207ex; height: 5.515ex; width: 18.999ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2452fee413f58bb9509e88d80d4b9f8d.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 2.333ex;"><span> — температура нагревателя (в градусах Кельвина), </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6a058d102910f33a7d4cf9ea23067b8c.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 2.333ex;"><span> — температура холодильника (в градусах Кельвина).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При какой минимальной температуре нагревателя </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2452fee413f58bb9509e88d80d4b9f8d.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 2.333ex;"><span> КПД этого двигателя будет не меньше </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/41ead7596ef91793d9bdd31c66657393.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.061ex;"><span>, если температура холодильника </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/bf194908bc97da3867af96ea31132015.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 8.703ex;"><span> К. Ответ дайте в градусах Кельвина.</span></span></div>',
-    answer: '550',
+    answer: "550",
   },
 
   {
     number: 67,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для определения эффективной температуры звёзд используют закон Стефана — Больцмана, согласно которому мощность излучения нагретого тела </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> прямо пропорциональна площади его поверхности </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5dbc98dcc983a70728bd082d1a47546e.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.581ex;"><span> <i>&nbsp;</i> и четвёртой степени температуры <i>&nbsp;</i> </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/dfe3b8f435c412790bcf0bd8b8a20969.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 2.849ex;"><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b01bed4da89d3ca663decab91e1d75ff.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 10.066ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fd1d8be181b95ba979a970788d1ad877.svg" style="vertical-align: -0.555ex; height: 2.9ex; width: 13.651ex;"><span> - постоянная, площадь измеряется в квадратных метрах, температура — в кельвинах, а мощность — в ваттах. Известно, что некоторая звезда имеет площадь </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b6c84b32e0ee941e53d3ee85438028c5.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 17.174ex;"><span>, а излучаемая ею мощность </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> не менее </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1662503d121d9f1b9c6157d73c1a8eae.svg" style="vertical-align: -0.555ex; height: 2.9ex; width: 10.355ex;"><span> Вт.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Определите наименьшую возможную температуру этой звезды. Ответ дайте в кельвинах.</span></span></div>',
-    answer: '4000',
+    answer: "4000",
   },
 
   {
     number: 68,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В ходе распада радиоактивного изотопа его масса уменьшается по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a0e6b79a3b1bbd4c278a536734ee2c22.svg" style="vertical-align: -0.693ex; height: 3.45ex; width: 14.603ex;"><span>,&nbsp;где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/fed1e4775925bd3f7af0c5d8fc47e4e6.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.704ex;"><span> (мг) — начальная масса изотопа, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> (мин.) — время, прошедшее от начального момента, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.557ex;"><span> (мин.) — период полураспада. В начальный момент времени масса изотопа </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/d8f9fbc7701f806c86f499e12a08c069.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 7.912ex;"><span> мг. Период его полураспада </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3d0c559b2b9a7c2d8b5297e24ade0054.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.602ex;"><span> мин.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Через сколько минут масса изотопа будет равна 12,5 мг?</span></span></div>',
-    answer: '10',
+    answer: "10",
   },
 
   {
     number: 69,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>При равноускоренном движении колеса троллейбуса его угловая скорость </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/260b57b4fdee8c5a001c09b555ccd28d.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.583ex;"><span> (измеряемая в градусах в секунду) и угловое ускорение </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f8b1c5a729a09649c275fca88976d8dd.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.125ex;"><span> связаны соотношением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/8ad7a5ae63763a072b76de0cae447fa9.svg" style="vertical-align: -0.968ex; height: 3.313ex; width: 15.199ex;"><span> где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b0e7a386c3bc9554d58b4d928100ba01.svg" style="vertical-align: -0.555ex; height: 1.799ex; width: 2.637ex;"><span> — начальная угловая скорость колеса, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/87567e37a1fe699fe1c5d3a79325da6f.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.548ex;"><span> — угол поворота колеса, измеряемый в градусах. Отъезжая от остановки, троллейбус начинает равноускоренное движение с ускорением </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c9dc86707cfddcfebed950805e509bdd.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 6.476ex;"><span> Сколько полных оборотов сделает колесо троллейбуса к тому времени, как его угловая скорость достигнет значения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/bcc919bcf85caae96ba58b7d4fe1ded8.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.002ex;"><span>? Полный оборот колеса равен </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b3e68d206c4b0fb51a07652df4392a19.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 4.877ex;"></span></div>',
-    image: '',
-    question: '',
-    answer: '5',
+    image: "",
+    question: "",
+    answer: "5",
   },
 
   {
     number: 70,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В физике элементарных частиц используется своя система единиц, в которой скорость безразмерна; масса имеет ту же размерность, что и энергия, и измеряются они в электронвольтах. При движении с релятивистскими скоростями, кинетическая энергия </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b9ece18c950afbfa6b0fdbfa4ff731d3.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.557ex;"><span> движущейся частицы равна </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a4618c0125cafbb8b4a59def344bdd32.svg" style="vertical-align: -4.684ex; height: 10.47ex; width: 20.398ex;"><span> где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/6f8f57715090da2632453988d9a1501b.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.65ex;"><span> — масса покоя частицы, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4a8a08f09d37b73795649038408b5f33.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 0.965ex;"><span> — скорость света в вакууме, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/9e3669d19b675bd57058fd4664205d2a.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 1.176ex;"><span> — скорость движения частицы. Известно, что протон массой </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/74bba22728b6185eec06286af6bec36d.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> МэВ (мегаэлектронвольт) движется с кинетической энергией </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/0503687df6ea7f8a1d69427aff0b0c24.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 5.232ex;"><span> МэВ. Чему равна скорость протона, если принять скорость света </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4a8a08f09d37b73795649038408b5f33.svg" style="vertical-align: -0.28ex; height: 1.523ex; width: 0.965ex;"><span> за </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c4ca4238a0b923820dcc509a6f75849b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.162ex;"><span>?</span></span></div>',
-    image: '',
-    question: '',
-    answer: '0,6',
+    image: "",
+    question: "",
+    answer: "0,6",
   },
 
   {
     number: 71,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Высота над землeй подброшенного вверх мяча меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/711bd875630c2aa423d55b916c621d52.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 19.73ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2510c39011c5be704182423e3a695e91.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.193ex;"><span> – высота в метрах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> – время в секундах, прошедшее с момента броска.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Сколько секунд мяч будет находиться на высоте не менее трех метров?</span></span></div>',
-    answer: '1,2',
+    answer: "1,2",
   },
 
   {
     number: 72,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для одного из предприятий-монополистов зависимость объёма спроса на продукцию </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7694f4a66316e53c8cdd9d9954bd611d.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.077ex;"><span> (единиц в месяц) от её цены </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span> (тыс. руб.) задаётся формулой: </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c41e84f16fbdd16859240b90db5ccd67.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 13.533ex;"><span>. Определите максимальный уровень цены </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/83878c91171338902e0fe0fb97a8c47a.svg" style="height: 1.936ex; width: 1.205ex;"><span> (в тыс. руб.), при котором значение выручки предприятия за месяц </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/aed5a401b6bdff5bb4406a07e5d5e1c6.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 7.742ex;"><span> составит не менее </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/4fac9ba115140ac4f1c22da82aa0bc7f.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 3.487ex;"><span> тыс. руб.</span></span></div>',
-    image: '',
-    question: '',
-    answer: '11',
+    image: "",
+    question: "",
+    answer: "11",
   },
 
   {
     number: 73,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>В боковой стенке высокого цилиндрического бака у самого дна закреплeн кран. После его открытия вода начинает вытекать из бака, при этом высота столба воды в нeм, выраженная в метрах, меняется по закону </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b320cbb117b2e4b696bab6719845610e.svg" style="vertical-align: -1.794ex; height: 4.551ex; width: 31.266ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> — время в секундах, прошедшее с момента открытия крана, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/3e3192410621f47eeb3845c813594bb8.svg" style="vertical-align: -0.555ex; height: 2.349ex; width: 8.29ex;"><span> м — начальная высота столба воды, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/1bfc4fdafca085f69b987d2dbb40d2d6.svg" style="vertical-align: -1.794ex; height: 5.102ex; width: 7.304ex;"><span> — отношение площадей поперечных сечений крана и бака, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b2f5ff47436671b6e533d8dc3614845d.svg" style="vertical-align: -0.693ex; height: 1.936ex; width: 1.144ex;"><span> — ускорение свободного падения (считайте </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/02456b538d288a1bd1b134f1724b6df7.svg" style="vertical-align: -0.693ex; height: 3.037ex; width: 10.547ex;"><span>).</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Через сколько секунд после открытия крана в баке останется четверть первоначального объема воды?</span></span></div>',
-    answer: '50',
+    answer: "50",
   },
 
   {
     number: 74,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Для поддержания балкона планируется использовать цилиндрическую колонну. Давление </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/44c29edb103a2872f519ad0c9a0fdaaa.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.636ex;"><span> (в паскалях), оказываемое балконом и колонной на опору, определяется по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2059b4f5a3d3c95f08e7aaab57688239.svg" style="vertical-align: -1.932ex; height: 5.239ex; width: 9.565ex;"><span>, где</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/5efbcb2512694c70f6172234990e1f83.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 9.182ex;"><span> кг — общая масса балкона и колонны,</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/f623e75af30e62bbd73d6df5b50bb7b5.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.836ex;"><span> — диаметр колонны (в метрах).</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Считая ускорение свободного падения </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/112f48e4093c514cc217aced1a5dfb3b.svg" style="vertical-align: -0.693ex; height: 2.487ex; width: 6.351ex;"><span> м/с</span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/b37b69605d183ba16f9c11dd872bcf50.svg" style="vertical-align: -0.142ex; height: 2.487ex; width: 1.054ex;"><span>, а </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/7efc5ac9d2a6787cf2d12551f0ce041b.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 5.365ex;"><span>, определите наименьший возможный диаметр колонны, если давление, оказываемое на опору, не должно быть превышать </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/c9077732a294f90a75acea3ce5f2a4e8.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 6.975ex;"><span> Па.</span></span></div><div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>Ответ выразите в метрах.</span></span></div>',
-    answer: '0,4',
+    answer: "0,4",
   },
 
   {
     number: 75,
     text:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>После дождя уровень воды в колодце может повыситься. Коля бросает небольшие камешки в колодец, измеряя время их падения, и рассчитывает расстояние до воды по формуле </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/a3c0de90544a1fb22e05de1fa227a10e.svg" style="vertical-align: -0.28ex; height: 2.624ex; width: 7.02ex;"><span>, где </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/2510c39011c5be704182423e3a695e91.svg" style="vertical-align: -0.28ex; height: 2.074ex; width: 1.193ex;"><span> – расстояние в метрах, </span><img class="Formula Formula_img" src="https://yastatic.net/s3/edu/tex/e358efa489f58062f10dd7316b65649e.svg" style="vertical-align: -0.28ex; height: 1.799ex; width: 0.728ex;"><span> – время падения в секундах. До дождя камушки падали 1,6 с.</span></span></div>',
-    image: '',
+    image: "",
     question:
       '<div class="Text Text_size_m TaskBlock TaskBlock_type_text"><span><span>На сколько поднялся уровень воды после дождя, если измеряемое время уменьшилось на 0,2 с? Ответ выразите в метрах.</span></span></div>',
-    answer: '3',
+    answer: "3",
   },
-]
+];
