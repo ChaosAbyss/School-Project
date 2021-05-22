@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.9)  21 MAY 2021 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.2.9)  22 MAY 2021 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1038,7 +1038,7 @@ LaTeX Info: Redefining \nameref on input line 104.
 
 (./paper.out) (./paper.out)
 \@outlinefile=\write4
-<../img/title_page_school_logo.jpg, id=59, 469.755pt x 123.1875pt>
+<../img/title_page_school_logo.jpg, id=63, 469.755pt x 123.1875pt>
 File: ../img/title_page_school_logo.jpg Graphic file (type jpg)
 <use ../img/title_page_school_logo.jpg>
 Package pdftex.def Info: ../img/title_page_school_logo.jpg  used on input line 
@@ -1137,12 +1137,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--426
 
  []
 
-<./img/tiles.png, id=112, 657.95813pt x 679.78969pt>
+<./img/tiles.png, id=117, 657.95813pt x 679.78969pt>
 File: ./img/tiles.png Graphic file (type png)
 <use ./img/tiles.png>
 Package pdftex.def Info: ./img/tiles.png  used on input line 439.
 (pdftex.def)             Requested size: 212.93028pt x 220.0pt.
-<./img/tileHover.png, id=113, 652.68843pt x 654.94687pt>
+<./img/tileHover.png, id=118, 652.68843pt x 654.94687pt>
 File: ./img/tileHover.png Graphic file (type png)
 <use ./img/tileHover.png>
 Package pdftex.def Info: ./img/tileHover.png  used on input line 444.
@@ -1157,12 +1157,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--467
 
  []
 
-<./img/math.png, id=120, 657.95813pt x 678.28406pt>
+<./img/math.png, id=125, 657.95813pt x 678.28406pt>
 File: ./img/math.png Graphic file (type png)
 <use ./img/math.png>
 Package pdftex.def Info: ./img/math.png  used on input line 475.
 (pdftex.def)             Requested size: 213.40215pt x 220.0pt.
-<./img/russian.png, id=121, 657.2053pt x 679.03688pt>
+<./img/russian.png, id=126, 657.2053pt x 679.03688pt>
 File: ./img/russian.png Graphic file (type png)
 <use ./img/russian.png>
 Package pdftex.def Info: ./img/russian.png  used on input line 480.
@@ -1177,24 +1177,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--489
 
  []
 
-<./img/tooltip.png, id=122, 590.95781pt x 125.71968pt>
+<./img/tooltip.png, id=127, 590.95781pt x 125.71968pt>
 File: ./img/tooltip.png Graphic file (type png)
 <use ./img/tooltip.png>
 Package pdftex.def Info: ./img/tooltip.png  used on input line 497.
 (pdftex.def)             Requested size: 329.04048pt x 70.0pt.
 [8 <./img/math.png (PNG copy)> <./img/russian.png (PNG copy)> <./img/tooltip.pn
 g (PNG copy)>]
-<./img/quizFrame.png, id=130, 642.4pt x 214.8025pt>
+<./img/quizFrame.png, id=135, 642.4pt x 214.8025pt>
 File: ./img/quizFrame.png Graphic file (type png)
 <use ./img/quizFrame.png>
 Package pdftex.def Info: ./img/quizFrame.png  used on input line 518.
 (pdftex.def)             Requested size: 299.0658pt x 100.0pt.
-<./img/1Example.png, id=131, 642.4pt x 588.1975pt>
+<./img/1Example.png, id=136, 642.4pt x 588.1975pt>
 File: ./img/1Example.png Graphic file (type png)
 <use ./img/1Example.png>
 Package pdftex.def Info: ./img/1Example.png  used on input line 536.
 (pdftex.def)             Requested size: 185.66388pt x 170.0pt.
-<./img/2Example.png, id=132, 642.4pt x 491.8375pt>
+<./img/2Example.png, id=137, 642.4pt x 491.8375pt>
 File: ./img/2Example.png Graphic file (type png)
 <use ./img/2Example.png>
 Package pdftex.def Info: ./img/2Example.png  used on input line 541.
@@ -1204,12 +1204,12 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 534--544
 []$[]$ $[]$ 
  []
 
-<./img/1Sequence.png, id=133, 642.4pt x 578.16pt>
+<./img/1Sequence.png, id=138, 642.4pt x 578.16pt>
 File: ./img/1Sequence.png Graphic file (type png)
 <use ./img/1Sequence.png>
 Package pdftex.def Info: ./img/1Sequence.png  used on input line 555.
 (pdftex.def)             Requested size: 199.99474pt x 180.0pt.
-<./img/2Sequence.png, id=134, 642.4pt x 570.13pt>
+<./img/2Sequence.png, id=139, 642.4pt x 570.13pt>
 File: ./img/2Sequence.png Graphic file (type png)
 <use ./img/2Sequence.png>
 Package pdftex.def Info: ./img/2Sequence.png  used on input line 560.
@@ -1220,12 +1220,12 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 553--563
  []
 
 [9 <./img/quizFrame.png> <./img/1Example.png> <./img/2Example.png>]
-<./img/correctAnswer.png, id=149, 642.4pt x 414.54875pt>
+<./img/correctAnswer.png, id=154, 642.4pt x 414.54875pt>
 File: ./img/correctAnswer.png Graphic file (type png)
 <use ./img/correctAnswer.png>
 Package pdftex.def Info: ./img/correctAnswer.png  used on input line 576.
 (pdftex.def)             Requested size: 216.94278pt x 140.0pt.
-<./img/incorrectAnswer.png, id=150, 642.4pt x 421.575pt>
+<./img/incorrectAnswer.png, id=155, 642.4pt x 421.575pt>
 File: ./img/incorrectAnswer.png Graphic file (type png)
 <use ./img/incorrectAnswer.png>
 Package pdftex.def Info: ./img/incorrectAnswer.png  used on input line 581.
@@ -1236,15 +1236,99 @@ Overfull \hbox (2.61049pt too wide) in paragraph at lines 574--584
  []
 
 [10 <./img/1Sequence.png> <./img/2Sequence.png> <./img/correctAnswer.png> <./im
-g/incorrectAnswer.png>] (./bibliography.tex) [11] (./paper.aux)
-Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: E00093A991E9EEAEB671A6D31AD49B54;2528.
+g/incorrectAnswer.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 589--595
+
+ []
+
+<./img/phoneMainPageBug.png, id=168, 414.04688pt x 677.53125pt>
+File: ./img/phoneMainPageBug.png Graphic file (type png)
+<use ./img/phoneMainPageBug.png>
+Package pdftex.def Info: ./img/phoneMainPageBug.png  used on input line 609.
+(pdftex.def)             Requested size: 100.0pt x 163.63431pt.
+<./img/phoneMainPage.png, id=169, 402.00188pt x 677.53125pt>
+File: ./img/phoneMainPage.png Graphic file (type png)
+<use ./img/phoneMainPage.png>
+Package pdftex.def Info: ./img/phoneMainPage.png  used on input line 614.
+(pdftex.def)             Requested size: 100.0pt x 168.53465pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 607--617
+[]$[]$ $[]$ 
+ []
+
+<./img/gridBug.png, id=170, 489.32813pt x 677.53125pt>
+File: ./img/gridBug.png Graphic file (type png)
+<use ./img/gridBug.png>
+Package pdftex.def Info: ./img/gridBug.png  used on input line 627.
+(pdftex.def)             Requested size: 100.0pt x 138.46059pt.
+<./img/grid.png, id=171, 491.58656pt x 678.28406pt>
+File: ./img/grid.png Graphic file (type png)
+<use ./img/grid.png>
+Package pdftex.def Info: ./img/grid.png  used on input line 632.
+(pdftex.def)             Requested size: 100.0pt x 137.97275pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 625--635
+[]$[]$ $[]$ 
+ []
+
+<./img/inputBug.png, id=172, 282.05376pt x 504.88625pt>
+File: ./img/inputBug.png Graphic file (type png)
+<use ./img/inputBug.png>
+Package pdftex.def Info: ./img/inputBug.png  used on input line 645.
+(pdftex.def)             Requested size: 100.0pt x 179.00089pt.
+<./img/input.png, id=173, 280.04625pt x 503.8825pt>
+File: ./img/input.png Graphic file (type png)
+<use ./img/input.png>
+Package pdftex.def Info: ./img/input.png  used on input line 650.
+(pdftex.def)             Requested size: 100.0pt x 179.92903pt.
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 643--653
+[]$[]$ $[]$ 
+ []
+
+[11 <./img/phoneMainPageBug.png (PNG copy)> <./img/phoneMainPage.png (PNG copy)
+> <./img/gridBug.png (PNG copy)> <./img/grid.png (PNG copy)>] [12 <./img/inputB
+ug.png> <./img/input.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 659--664
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--680
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--686
+
+ []
+
+
+Overfull \hbox (6.90897pt too wide) in paragraph at lines 687--693
+[]\T2A/cmr/m/n/12 Создание ин-ту-и-тив-но по-нят-но-го ин-тер-фей-са, вос-про-и
+з-во-ди-мо-го как с мо-биль-ных устройств,
+ []
+
+[13] (./bibliography.tex) [14] (./paper.aux)
+
+Package rerunfilecheck Warning: File `paper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `paper.out':
+(rerunfilecheck)             Before: F260E4AE1D3ABBDCCDB8A59697453F9D;2708
+(rerunfilecheck)             After:  4D6C3C455D2D86ADECA56F970F3346B6;2292.
  ) 
 Here is how much of TeX's memory you used:
- 26203 strings out of 479383
- 491730 string characters out of 5875831
- 820119 words of memory out of 5000000
- 42813 multiletter control sequences out of 15000+600000
+ 26250 strings out of 479383
+ 492614 string characters out of 5875831
+ 820121 words of memory out of 5000000
+ 42844 multiletter control sequences out of 15000+600000
  414546 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,9n,85p,787b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1257,10 +1341,10 @@ hare/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
 fti1200.pfb>
-Output written on paper.pdf (12 pages, 1445439 bytes).
+Output written on paper.pdf (15 pages, 2120091 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
